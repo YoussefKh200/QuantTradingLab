@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libqtl_portfolio.a CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o
+/usr/bin/ranlib ../lib/libqtl_portfolio.a

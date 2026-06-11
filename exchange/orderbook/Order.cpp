@@ -1,6 +1,6 @@
 /**
  * @file exchange/orderbook/Order.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * Order structs are header-defined. This TU satisfies CMake.
  */
 #include "exchange/orderbook/Order.hpp"
 namespace qtl {}

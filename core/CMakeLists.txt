@@ -7,6 +7,7 @@
 #   config   : key-value configuration store
 # ─────────────────────────────────────────────────────────────
 add_library(qtl_core STATIC
+    # Phase 1
     events/Event.cpp
     events/EventQueue.cpp
     events/EventDispatcher.cpp
@@ -15,6 +16,10 @@ add_library(qtl_core STATIC
     threading/ThreadPool.cpp
     threading/RingBuffer.cpp
     config/Config.cpp
+    # Phase 2
+    events/EventPool.cpp
+    events/EventLoop.cpp
+    events/SPSCEventQueue.cpp
 )
 
 target_include_directories(qtl_core PUBLIC ${CMAKE_SOURCE_DIR})

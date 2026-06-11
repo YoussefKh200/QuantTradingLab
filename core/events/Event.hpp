@@ -13,6 +13,7 @@
 
 #include "core/Types.hpp"
 #include <string>
+#include <cstdint>
 
 namespace qtl {
 
@@ -23,6 +24,11 @@ namespace qtl {
 struct Event {
     EventType  type;       ///< Discriminator for fast dispatch
     Timestamp  timestamp;  ///< Nanosecond epoch when event was created
+
+    /// Used by EventPool<T> to store pool-pointer + slot-index for
+    /// zero-allocation round-trip. Set to ~0 for heap-allocated events.
+    /// Do NOT touch from user code.
+    uintptr_t  poolContext_{~uintptr_t{0}};
 
     explicit Event(EventType t) noexcept
         : type{t}, timestamp{nowNs()} {}

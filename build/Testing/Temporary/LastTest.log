@@ -1,0 +1,81 @@
+Start testing: Jun 10 23:23 WAT
+----------------------------------------------------------
+1/1 Testing: QuantTradingLabTests
+1/1 Test: QuantTradingLabTests
+Command: "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/bin/qtl_tests"
+Directory: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/tests
+"QuantTradingLabTests" start time: Jun 10 23:23 WAT
+Output:
+----------------------------------------------------------
+[23:23:04.484] ERROR [EventLoop] Handler threw: loop isolation test
+[PASS] EventSystem/construction
+[PASS] EventSystem/EventQueue_basic
+[PASS] EventSystem/EventQueue_multithreaded
+[PASS] EventSystem/EventQueue_stop
+[PASS] EventSystem/Dispatcher_typed
+[PASS] EventSystem/Dispatcher_raw
+[PASS] EventSystem/Dispatcher_drain
+[PASS] EventSystem/Dispatcher_exception
+[PASS] EventSystem/EventLoop_drain
+[PASS] EventSystem/EventLoop_step
+[PASS] EventSystem/EventLoop_run
+[PASS] EventSystem/EventLoop_stats
+[PASS] EventSystem/SPSC_basic
+[PASS] EventSystem/SPSC_fill_drain
+[PASS] EventSystem/SPSC_throughput_1M
+[PASS] EventSystem/EventPool_basic
+[PASS] EventSystem/EventPool_exhaustion
+[PASS] EventSystem/Timestamp_ordering
+[PASS] OrderBook/empty_state
+[PASS] OrderBook/add_resting_orders
+[PASS] OrderBook/fifo_priority
+[PASS] OrderBook/full_fill_limit_cross
+[PASS] OrderBook/partial_fill_maker
+[PASS] OrderBook/partial_fill_taker
+[PASS] OrderBook/market_order_sweeps_levels
+[PASS] OrderBook/cancel_order
+[PASS] OrderBook/modify_price_loses_priority
+[PASS] OrderBook/modify_qty_preserves_priority
+[PASS] OrderBook/ioc_order
+[PASS] OrderBook/fok_success
+[PASS] OrderBook/fok_reject
+[PASS] OrderBook/duplicate_order_id
+[PASS] OrderBook/best_prices
+[PASS] OrderBook/trade_report_fields
+[PASS] OrderBook/multi_level_sweep
+
++----------------------------------------------------------+
+|   BOOK: AAPL                                           |
++----------+----------+----------+------------------------+
+| SIDE     |     QTY  |    PRICE | DEPTH                  |
++----------+----------+----------+------------------------+
+| ASK      |300       |182.5200  | ||||||||||||||||||     |
+| ASK      |100       |182.5100  | ||||||                 |
++----------+----------+----------+------------------------+
+|          |          | mid 182.5000 |                        |
++----------+----------+----------+------------------------+
+| BID      |200       |182.4900  | ||||||||||||           |
+| BID      |400       |182.4800  | |||||||||||||||||||||||||
++----------+----------+----------+------------------------+
+| Orders: 4      Trades: 0      Spread: 0.0200      |
++----------------------------------------------------------+
+[PASS] OrderBook/printbook_output
+[PASS] OrderBook/snapshot_depth
+[PASS] OrderBook/large_scale_10k
+[PASS] registerMatchingEngineTests/placeholder
+[PASS] registerRiskEngineTests/placeholder
+[PASS] registerPortfolioTests/placeholder
+[PASS] registerBlackScholesTests/placeholder
+[PASS] registerPerformanceMetricsTests/placeholder
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Results: 43 passed, 0 failed / 43 total
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"QuantTradingLabTests" end time: Jun 10 23:23 WAT
+"QuantTradingLabTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 10 23:23 WAT
