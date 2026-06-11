@@ -1,6 +1,6 @@
 /**
  * @file exchange/execution/ExecutionReport.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * ExecutionReport is header-only. This TU satisfies CMake.
  */
 #include "exchange/execution/ExecutionReport.hpp"
 namespace qtl {}

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab
+CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build
+CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build
 
 # Include any dependencies generated for this target.
 include options/CMakeFiles/qtl_options.dir/depend.make
@@ -73,74 +73,74 @@ options/CMakeFiles/qtl_options.dir/codegen:
 .PHONY : options/CMakeFiles/qtl_options.dir/codegen
 
 options/CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o: options/CMakeFiles/qtl_options.dir/flags.make
-options/CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/blackscholes/BlackScholes.cpp
+options/CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/blackscholes/BlackScholes.cpp
 options/CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o: options/CMakeFiles/qtl_options.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object options/CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT options/CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o -MF CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o.d -o CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/blackscholes/BlackScholes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object options/CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT options/CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o -MF CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o.d -o CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/blackscholes/BlackScholes.cpp
 
 options/CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/blackscholes/BlackScholes.cpp > CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/blackscholes/BlackScholes.cpp > CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.i
 
 options/CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/blackscholes/BlackScholes.cpp -o CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/blackscholes/BlackScholes.cpp -o CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.s
 
 options/CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o: options/CMakeFiles/qtl_options.dir/flags.make
-options/CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/greeks/Greeks.cpp
+options/CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/greeks/Greeks.cpp
 options/CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o: options/CMakeFiles/qtl_options.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object options/CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT options/CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o -MF CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o.d -o CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/greeks/Greeks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object options/CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT options/CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o -MF CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o.d -o CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/greeks/Greeks.cpp
 
 options/CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/greeks/Greeks.cpp > CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/greeks/Greeks.cpp > CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.i
 
 options/CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/greeks/Greeks.cpp -o CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/greeks/Greeks.cpp -o CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.s
 
 options/CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o: options/CMakeFiles/qtl_options.dir/flags.make
-options/CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/iv_surface/VolatilitySurface.cpp
+options/CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/iv_surface/VolatilitySurface.cpp
 options/CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o: options/CMakeFiles/qtl_options.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object options/CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT options/CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o -MF CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o.d -o CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/iv_surface/VolatilitySurface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object options/CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT options/CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o -MF CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o.d -o CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/iv_surface/VolatilitySurface.cpp
 
 options/CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/iv_surface/VolatilitySurface.cpp > CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/iv_surface/VolatilitySurface.cpp > CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.i
 
 options/CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/iv_surface/VolatilitySurface.cpp -o CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/iv_surface/VolatilitySurface.cpp -o CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.s
 
 options/CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o: options/CMakeFiles/qtl_options.dir/flags.make
-options/CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/gamma_exposure/GammaExposure.cpp
+options/CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/gamma_exposure/GammaExposure.cpp
 options/CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o: options/CMakeFiles/qtl_options.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object options/CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT options/CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o -MF CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o.d -o CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/gamma_exposure/GammaExposure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object options/CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT options/CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o -MF CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o.d -o CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/gamma_exposure/GammaExposure.cpp
 
 options/CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/gamma_exposure/GammaExposure.cpp > CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/gamma_exposure/GammaExposure.cpp > CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.i
 
 options/CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/gamma_exposure/GammaExposure.cpp -o CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/gamma_exposure/GammaExposure.cpp -o CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.s
 
 options/CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o: options/CMakeFiles/qtl_options.dir/flags.make
-options/CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/dealer_positioning/DealerPositioning.cpp
+options/CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/dealer_positioning/DealerPositioning.cpp
 options/CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o: options/CMakeFiles/qtl_options.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object options/CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT options/CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o -MF CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o.d -o CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/dealer_positioning/DealerPositioning.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object options/CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT options/CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o -MF CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o.d -o CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/dealer_positioning/DealerPositioning.cpp
 
 options/CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/dealer_positioning/DealerPositioning.cpp > CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/dealer_positioning/DealerPositioning.cpp > CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.i
 
 options/CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options/dealer_positioning/DealerPositioning.cpp -o CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options/dealer_positioning/DealerPositioning.cpp -o CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.s
 
 # Object files for target qtl_options
 qtl_options_OBJECTS = \
@@ -160,19 +160,19 @@ lib/libqtl_options.a: options/CMakeFiles/qtl_options.dir/gamma_exposure/GammaExp
 lib/libqtl_options.a: options/CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o
 lib/libqtl_options.a: options/CMakeFiles/qtl_options.dir/build.make
 lib/libqtl_options.a: options/CMakeFiles/qtl_options.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ../lib/libqtl_options.a"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && $(CMAKE_COMMAND) -P CMakeFiles/qtl_options.dir/cmake_clean_target.cmake
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_options.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ../lib/libqtl_options.a"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && $(CMAKE_COMMAND) -P CMakeFiles/qtl_options.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_options.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 options/CMakeFiles/qtl_options.dir/build: lib/libqtl_options.a
 .PHONY : options/CMakeFiles/qtl_options.dir/build
 
 options/CMakeFiles/qtl_options.dir/clean:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options && $(CMAKE_COMMAND) -P CMakeFiles/qtl_options.dir/cmake_clean.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options && $(CMAKE_COMMAND) -P CMakeFiles/qtl_options.dir/cmake_clean.cmake
 .PHONY : options/CMakeFiles/qtl_options.dir/clean
 
 options/CMakeFiles/qtl_options.dir/depend:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/options /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/options/CMakeFiles/qtl_options.dir/DependInfo.cmake "--color=$(COLOR)" qtl_options
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/options /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/options/CMakeFiles/qtl_options.dir/DependInfo.cmake "--color=$(COLOR)" qtl_options
 .PHONY : options/CMakeFiles/qtl_options.dir/depend
 

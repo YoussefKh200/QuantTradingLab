@@ -1,13 +1,13 @@
-Start testing: Jun 10 23:23 WAT
+Start testing: Jun 10 23:31 WAT
 ----------------------------------------------------------
 1/1 Testing: QuantTradingLabTests
 1/1 Test: QuantTradingLabTests
-Command: "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/bin/qtl_tests"
-Directory: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase3/QuantTradingLab/build/tests
-"QuantTradingLabTests" start time: Jun 10 23:23 WAT
+Command: "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/bin/qtl_tests"
+Directory: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/tests
+"QuantTradingLabTests" start time: Jun 10 23:31 WAT
 Output:
 ----------------------------------------------------------
-[23:23:04.484] ERROR [EventLoop] Handler threw: loop isolation test
+[23:31:46.150] ERROR [EventLoop] Handler threw: loop isolation test
 [PASS] EventSystem/construction
 [PASS] EventSystem/EventQueue_basic
 [PASS] EventSystem/EventQueue_multithreaded
@@ -62,20 +62,41 @@ Output:
 [PASS] OrderBook/printbook_output
 [PASS] OrderBook/snapshot_depth
 [PASS] OrderBook/large_scale_10k
-[PASS] registerMatchingEngineTests/placeholder
+[PASS] MatchingEngine/symbol_registration
+[PASS] MatchingEngine/unknown_symbol_rejected
+[PASS] MatchingEngine/new_ack_generated
+[PASS] MatchingEngine/full_fill_both_reports
+[PASS] MatchingEngine/partial_fill_taker
+[PASS] MatchingEngine/partial_fill_maker
+[PASS] MatchingEngine/market_order_sweep
+[PASS] MatchingEngine/cancel_order
+[PASS] MatchingEngine/cancel_unknown
+[PASS] MatchingEngine/modify_order
+[PASS] MatchingEngine/ioc_order
+[PASS] MatchingEngine/fok_success
+[PASS] MatchingEngine/fok_reject
+[PASS] MatchingEngine/invalid_qty_rejected
+[PASS] MatchingEngine/invalid_price_rejected
+[PASS] MatchingEngine/commission_calculation
+[PASS] MatchingEngine/vwap_across_fills
+[PASS] MatchingEngine/exec_report_fields
+[PASS] MatchingEngine/engine_stats
+[PASS] MatchingEngine/fill_event_on_eventloop
+[PASS] MatchingEngine/print_all_books
+[PASS] MatchingEngine/multi_symbol_isolation
 [PASS] registerRiskEngineTests/placeholder
 [PASS] registerPortfolioTests/placeholder
 [PASS] registerBlackScholesTests/placeholder
 [PASS] registerPerformanceMetricsTests/placeholder
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Results: 43 passed, 0 failed / 43 total
+Results: 64 passed, 0 failed / 64 total
 <end of output>
-Test time =   0.54 sec
+Test time =   0.51 sec
 ----------------------------------------------------------
 Test Passed.
-"QuantTradingLabTests" end time: Jun 10 23:23 WAT
+"QuantTradingLabTests" end time: Jun 10 23:31 WAT
 "QuantTradingLabTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 10 23:23 WAT
+End testing: Jun 10 23:31 WAT

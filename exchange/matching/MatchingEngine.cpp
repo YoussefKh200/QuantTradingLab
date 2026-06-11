@@ -1,6 +1,6 @@
 /**
  * @file exchange/matching/MatchingEngine.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * MatchingEngine is header-only. This TU satisfies CMake.
  */
 #include "exchange/matching/MatchingEngine.hpp"
 namespace qtl {}
