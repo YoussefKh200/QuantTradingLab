@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab
+CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build
+CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build
 
 # Include any dependencies generated for this target.
 include core/CMakeFiles/qtl_core.dir/depend.make
@@ -73,158 +73,158 @@ core/CMakeFiles/qtl_core.dir/codegen:
 .PHONY : core/CMakeFiles/qtl_core.dir/codegen
 
 core/CMakeFiles/qtl_core.dir/events/Event.cpp.o: core/CMakeFiles/qtl_core.dir/flags.make
-core/CMakeFiles/qtl_core.dir/events/Event.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/Event.cpp
+core/CMakeFiles/qtl_core.dir/events/Event.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/Event.cpp
 core/CMakeFiles/qtl_core.dir/events/Event.cpp.o: core/CMakeFiles/qtl_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object core/CMakeFiles/qtl_core.dir/events/Event.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/Event.cpp.o -MF CMakeFiles/qtl_core.dir/events/Event.cpp.o.d -o CMakeFiles/qtl_core.dir/events/Event.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/Event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object core/CMakeFiles/qtl_core.dir/events/Event.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/Event.cpp.o -MF CMakeFiles/qtl_core.dir/events/Event.cpp.o.d -o CMakeFiles/qtl_core.dir/events/Event.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/Event.cpp
 
 core/CMakeFiles/qtl_core.dir/events/Event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_core.dir/events/Event.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/Event.cpp > CMakeFiles/qtl_core.dir/events/Event.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/Event.cpp > CMakeFiles/qtl_core.dir/events/Event.cpp.i
 
 core/CMakeFiles/qtl_core.dir/events/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_core.dir/events/Event.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/Event.cpp -o CMakeFiles/qtl_core.dir/events/Event.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/Event.cpp -o CMakeFiles/qtl_core.dir/events/Event.cpp.s
 
 core/CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o: core/CMakeFiles/qtl_core.dir/flags.make
-core/CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventQueue.cpp
+core/CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventQueue.cpp
 core/CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o: core/CMakeFiles/qtl_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object core/CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o -MF CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o.d -o CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object core/CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o -MF CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o.d -o CMakeFiles/qtl_core.dir/events/EventQueue.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventQueue.cpp
 
 core/CMakeFiles/qtl_core.dir/events/EventQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_core.dir/events/EventQueue.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventQueue.cpp > CMakeFiles/qtl_core.dir/events/EventQueue.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventQueue.cpp > CMakeFiles/qtl_core.dir/events/EventQueue.cpp.i
 
 core/CMakeFiles/qtl_core.dir/events/EventQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_core.dir/events/EventQueue.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventQueue.cpp -o CMakeFiles/qtl_core.dir/events/EventQueue.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventQueue.cpp -o CMakeFiles/qtl_core.dir/events/EventQueue.cpp.s
 
 core/CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o: core/CMakeFiles/qtl_core.dir/flags.make
-core/CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventDispatcher.cpp
+core/CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventDispatcher.cpp
 core/CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o: core/CMakeFiles/qtl_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object core/CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o -MF CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o.d -o CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventDispatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object core/CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o -MF CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o.d -o CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventDispatcher.cpp
 
 core/CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventDispatcher.cpp > CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventDispatcher.cpp > CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.i
 
 core/CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventDispatcher.cpp -o CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventDispatcher.cpp -o CMakeFiles/qtl_core.dir/events/EventDispatcher.cpp.s
 
 core/CMakeFiles/qtl_core.dir/clock/Clock.cpp.o: core/CMakeFiles/qtl_core.dir/flags.make
-core/CMakeFiles/qtl_core.dir/clock/Clock.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/clock/Clock.cpp
+core/CMakeFiles/qtl_core.dir/clock/Clock.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/clock/Clock.cpp
 core/CMakeFiles/qtl_core.dir/clock/Clock.cpp.o: core/CMakeFiles/qtl_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object core/CMakeFiles/qtl_core.dir/clock/Clock.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/clock/Clock.cpp.o -MF CMakeFiles/qtl_core.dir/clock/Clock.cpp.o.d -o CMakeFiles/qtl_core.dir/clock/Clock.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/clock/Clock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object core/CMakeFiles/qtl_core.dir/clock/Clock.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/clock/Clock.cpp.o -MF CMakeFiles/qtl_core.dir/clock/Clock.cpp.o.d -o CMakeFiles/qtl_core.dir/clock/Clock.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/clock/Clock.cpp
 
 core/CMakeFiles/qtl_core.dir/clock/Clock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_core.dir/clock/Clock.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/clock/Clock.cpp > CMakeFiles/qtl_core.dir/clock/Clock.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/clock/Clock.cpp > CMakeFiles/qtl_core.dir/clock/Clock.cpp.i
 
 core/CMakeFiles/qtl_core.dir/clock/Clock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_core.dir/clock/Clock.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/clock/Clock.cpp -o CMakeFiles/qtl_core.dir/clock/Clock.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/clock/Clock.cpp -o CMakeFiles/qtl_core.dir/clock/Clock.cpp.s
 
 core/CMakeFiles/qtl_core.dir/logger/Logger.cpp.o: core/CMakeFiles/qtl_core.dir/flags.make
-core/CMakeFiles/qtl_core.dir/logger/Logger.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/logger/Logger.cpp
+core/CMakeFiles/qtl_core.dir/logger/Logger.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/logger/Logger.cpp
 core/CMakeFiles/qtl_core.dir/logger/Logger.cpp.o: core/CMakeFiles/qtl_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object core/CMakeFiles/qtl_core.dir/logger/Logger.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/logger/Logger.cpp.o -MF CMakeFiles/qtl_core.dir/logger/Logger.cpp.o.d -o CMakeFiles/qtl_core.dir/logger/Logger.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/logger/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object core/CMakeFiles/qtl_core.dir/logger/Logger.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/logger/Logger.cpp.o -MF CMakeFiles/qtl_core.dir/logger/Logger.cpp.o.d -o CMakeFiles/qtl_core.dir/logger/Logger.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/logger/Logger.cpp
 
 core/CMakeFiles/qtl_core.dir/logger/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_core.dir/logger/Logger.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/logger/Logger.cpp > CMakeFiles/qtl_core.dir/logger/Logger.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/logger/Logger.cpp > CMakeFiles/qtl_core.dir/logger/Logger.cpp.i
 
 core/CMakeFiles/qtl_core.dir/logger/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_core.dir/logger/Logger.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/logger/Logger.cpp -o CMakeFiles/qtl_core.dir/logger/Logger.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/logger/Logger.cpp -o CMakeFiles/qtl_core.dir/logger/Logger.cpp.s
 
 core/CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o: core/CMakeFiles/qtl_core.dir/flags.make
-core/CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/threading/ThreadPool.cpp
+core/CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/threading/ThreadPool.cpp
 core/CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o: core/CMakeFiles/qtl_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object core/CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o -MF CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o.d -o CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/threading/ThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object core/CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o -MF CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o.d -o CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/threading/ThreadPool.cpp
 
 core/CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/threading/ThreadPool.cpp > CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/threading/ThreadPool.cpp > CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.i
 
 core/CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/threading/ThreadPool.cpp -o CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/threading/ThreadPool.cpp -o CMakeFiles/qtl_core.dir/threading/ThreadPool.cpp.s
 
 core/CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o: core/CMakeFiles/qtl_core.dir/flags.make
-core/CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/threading/RingBuffer.cpp
+core/CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/threading/RingBuffer.cpp
 core/CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o: core/CMakeFiles/qtl_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object core/CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o -MF CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o.d -o CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/threading/RingBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object core/CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o -MF CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o.d -o CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/threading/RingBuffer.cpp
 
 core/CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/threading/RingBuffer.cpp > CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/threading/RingBuffer.cpp > CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.i
 
 core/CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/threading/RingBuffer.cpp -o CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/threading/RingBuffer.cpp -o CMakeFiles/qtl_core.dir/threading/RingBuffer.cpp.s
 
 core/CMakeFiles/qtl_core.dir/config/Config.cpp.o: core/CMakeFiles/qtl_core.dir/flags.make
-core/CMakeFiles/qtl_core.dir/config/Config.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/config/Config.cpp
+core/CMakeFiles/qtl_core.dir/config/Config.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/config/Config.cpp
 core/CMakeFiles/qtl_core.dir/config/Config.cpp.o: core/CMakeFiles/qtl_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object core/CMakeFiles/qtl_core.dir/config/Config.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/config/Config.cpp.o -MF CMakeFiles/qtl_core.dir/config/Config.cpp.o.d -o CMakeFiles/qtl_core.dir/config/Config.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/config/Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object core/CMakeFiles/qtl_core.dir/config/Config.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/config/Config.cpp.o -MF CMakeFiles/qtl_core.dir/config/Config.cpp.o.d -o CMakeFiles/qtl_core.dir/config/Config.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/config/Config.cpp
 
 core/CMakeFiles/qtl_core.dir/config/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_core.dir/config/Config.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/config/Config.cpp > CMakeFiles/qtl_core.dir/config/Config.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/config/Config.cpp > CMakeFiles/qtl_core.dir/config/Config.cpp.i
 
 core/CMakeFiles/qtl_core.dir/config/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_core.dir/config/Config.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/config/Config.cpp -o CMakeFiles/qtl_core.dir/config/Config.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/config/Config.cpp -o CMakeFiles/qtl_core.dir/config/Config.cpp.s
 
 core/CMakeFiles/qtl_core.dir/events/EventPool.cpp.o: core/CMakeFiles/qtl_core.dir/flags.make
-core/CMakeFiles/qtl_core.dir/events/EventPool.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventPool.cpp
+core/CMakeFiles/qtl_core.dir/events/EventPool.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventPool.cpp
 core/CMakeFiles/qtl_core.dir/events/EventPool.cpp.o: core/CMakeFiles/qtl_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object core/CMakeFiles/qtl_core.dir/events/EventPool.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/EventPool.cpp.o -MF CMakeFiles/qtl_core.dir/events/EventPool.cpp.o.d -o CMakeFiles/qtl_core.dir/events/EventPool.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object core/CMakeFiles/qtl_core.dir/events/EventPool.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/EventPool.cpp.o -MF CMakeFiles/qtl_core.dir/events/EventPool.cpp.o.d -o CMakeFiles/qtl_core.dir/events/EventPool.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventPool.cpp
 
 core/CMakeFiles/qtl_core.dir/events/EventPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_core.dir/events/EventPool.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventPool.cpp > CMakeFiles/qtl_core.dir/events/EventPool.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventPool.cpp > CMakeFiles/qtl_core.dir/events/EventPool.cpp.i
 
 core/CMakeFiles/qtl_core.dir/events/EventPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_core.dir/events/EventPool.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventPool.cpp -o CMakeFiles/qtl_core.dir/events/EventPool.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventPool.cpp -o CMakeFiles/qtl_core.dir/events/EventPool.cpp.s
 
 core/CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o: core/CMakeFiles/qtl_core.dir/flags.make
-core/CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventLoop.cpp
+core/CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventLoop.cpp
 core/CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o: core/CMakeFiles/qtl_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object core/CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o -MF CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o.d -o CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventLoop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object core/CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o -MF CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o.d -o CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventLoop.cpp
 
 core/CMakeFiles/qtl_core.dir/events/EventLoop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_core.dir/events/EventLoop.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventLoop.cpp > CMakeFiles/qtl_core.dir/events/EventLoop.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventLoop.cpp > CMakeFiles/qtl_core.dir/events/EventLoop.cpp.i
 
 core/CMakeFiles/qtl_core.dir/events/EventLoop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_core.dir/events/EventLoop.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/EventLoop.cpp -o CMakeFiles/qtl_core.dir/events/EventLoop.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/EventLoop.cpp -o CMakeFiles/qtl_core.dir/events/EventLoop.cpp.s
 
 core/CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o: core/CMakeFiles/qtl_core.dir/flags.make
-core/CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/SPSCEventQueue.cpp
+core/CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/SPSCEventQueue.cpp
 core/CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o: core/CMakeFiles/qtl_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object core/CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o -MF CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o.d -o CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/SPSCEventQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object core/CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT core/CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o -MF CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o.d -o CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/SPSCEventQueue.cpp
 
 core/CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/SPSCEventQueue.cpp > CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/SPSCEventQueue.cpp > CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.i
 
 core/CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core/events/SPSCEventQueue.cpp -o CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core/events/SPSCEventQueue.cpp -o CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.s
 
 # Object files for target qtl_core
 qtl_core_OBJECTS = \
@@ -256,19 +256,19 @@ lib/libqtl_core.a: core/CMakeFiles/qtl_core.dir/events/EventLoop.cpp.o
 lib/libqtl_core.a: core/CMakeFiles/qtl_core.dir/events/SPSCEventQueue.cpp.o
 lib/libqtl_core.a: core/CMakeFiles/qtl_core.dir/build.make
 lib/libqtl_core.a: core/CMakeFiles/qtl_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library ../lib/libqtl_core.a"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && $(CMAKE_COMMAND) -P CMakeFiles/qtl_core.dir/cmake_clean_target.cmake
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_core.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library ../lib/libqtl_core.a"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && $(CMAKE_COMMAND) -P CMakeFiles/qtl_core.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 core/CMakeFiles/qtl_core.dir/build: lib/libqtl_core.a
 .PHONY : core/CMakeFiles/qtl_core.dir/build
 
 core/CMakeFiles/qtl_core.dir/clean:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core && $(CMAKE_COMMAND) -P CMakeFiles/qtl_core.dir/cmake_clean.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core && $(CMAKE_COMMAND) -P CMakeFiles/qtl_core.dir/cmake_clean.cmake
 .PHONY : core/CMakeFiles/qtl_core.dir/clean
 
 core/CMakeFiles/qtl_core.dir/depend:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/core /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/core/CMakeFiles/qtl_core.dir/DependInfo.cmake "--color=$(COLOR)" qtl_core
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/core /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core/CMakeFiles/qtl_core.dir/DependInfo.cmake "--color=$(COLOR)" qtl_core
 .PHONY : core/CMakeFiles/qtl_core.dir/depend
 

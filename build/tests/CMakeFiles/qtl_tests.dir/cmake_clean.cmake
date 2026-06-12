@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qtl_tests.dir/test_event_system.cpp.o.d"
   "CMakeFiles/qtl_tests.dir/test_main.cpp.o"
   "CMakeFiles/qtl_tests.dir/test_main.cpp.o.d"
+  "CMakeFiles/qtl_tests.dir/test_market_data.cpp.o"
+  "CMakeFiles/qtl_tests.dir/test_market_data.cpp.o.d"
   "CMakeFiles/qtl_tests.dir/test_matching_engine.cpp.o"
   "CMakeFiles/qtl_tests.dir/test_matching_engine.cpp.o.d"
   "CMakeFiles/qtl_tests.dir/test_order_book.cpp.o"

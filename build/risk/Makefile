@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab
+CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build
+CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/risk//CMakeFiles/progress.marks
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles 0
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk//CMakeFiles/progress.marks
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk/clean
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk/preinstall
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk/preinstall
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 risk/CMakeFiles/qtl_risk.dir/rule:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk/CMakeFiles/qtl_risk.dir/rule
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 risk/CMakeFiles/qtl_risk.dir/rule
 .PHONY : risk/CMakeFiles/qtl_risk.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ qtl_risk: risk/CMakeFiles/qtl_risk.dir/rule
 
 # fast build rule for target.
 qtl_risk/fast:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/build
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/build
 .PHONY : qtl_risk/fast
 
 exposure/ExposureTracker.o: exposure/ExposureTracker.cpp.o
@@ -190,7 +190,7 @@ exposure/ExposureTracker.o: exposure/ExposureTracker.cpp.o
 
 # target to build an object file
 exposure/ExposureTracker.cpp.o:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o
 .PHONY : exposure/ExposureTracker.cpp.o
 
 exposure/ExposureTracker.i: exposure/ExposureTracker.cpp.i
@@ -198,7 +198,7 @@ exposure/ExposureTracker.i: exposure/ExposureTracker.cpp.i
 
 # target to preprocess a source file
 exposure/ExposureTracker.cpp.i:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.i
 .PHONY : exposure/ExposureTracker.cpp.i
 
 exposure/ExposureTracker.s: exposure/ExposureTracker.cpp.s
@@ -206,7 +206,7 @@ exposure/ExposureTracker.s: exposure/ExposureTracker.cpp.s
 
 # target to generate assembly for a file
 exposure/ExposureTracker.cpp.s:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.s
 .PHONY : exposure/ExposureTracker.cpp.s
 
 kill_switch/KillSwitch.o: kill_switch/KillSwitch.cpp.o
@@ -214,7 +214,7 @@ kill_switch/KillSwitch.o: kill_switch/KillSwitch.cpp.o
 
 # target to build an object file
 kill_switch/KillSwitch.cpp.o:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o
 .PHONY : kill_switch/KillSwitch.cpp.o
 
 kill_switch/KillSwitch.i: kill_switch/KillSwitch.cpp.i
@@ -222,7 +222,7 @@ kill_switch/KillSwitch.i: kill_switch/KillSwitch.cpp.i
 
 # target to preprocess a source file
 kill_switch/KillSwitch.cpp.i:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.i
 .PHONY : kill_switch/KillSwitch.cpp.i
 
 kill_switch/KillSwitch.s: kill_switch/KillSwitch.cpp.s
@@ -230,7 +230,7 @@ kill_switch/KillSwitch.s: kill_switch/KillSwitch.cpp.s
 
 # target to generate assembly for a file
 kill_switch/KillSwitch.cpp.s:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.s
 .PHONY : kill_switch/KillSwitch.cpp.s
 
 limits/RiskLimits.o: limits/RiskLimits.cpp.o
@@ -238,7 +238,7 @@ limits/RiskLimits.o: limits/RiskLimits.cpp.o
 
 # target to build an object file
 limits/RiskLimits.cpp.o:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o
 .PHONY : limits/RiskLimits.cpp.o
 
 limits/RiskLimits.i: limits/RiskLimits.cpp.i
@@ -246,7 +246,7 @@ limits/RiskLimits.i: limits/RiskLimits.cpp.i
 
 # target to preprocess a source file
 limits/RiskLimits.cpp.i:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.i
 .PHONY : limits/RiskLimits.cpp.i
 
 limits/RiskLimits.s: limits/RiskLimits.cpp.s
@@ -254,7 +254,7 @@ limits/RiskLimits.s: limits/RiskLimits.cpp.s
 
 # target to generate assembly for a file
 limits/RiskLimits.cpp.s:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f risk/CMakeFiles/qtl_risk.dir/build.make risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.s
 .PHONY : limits/RiskLimits.cpp.s
 
 # Help Target
@@ -291,6 +291,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

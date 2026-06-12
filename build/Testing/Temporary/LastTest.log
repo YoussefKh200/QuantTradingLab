@@ -1,13 +1,13 @@
-Start testing: Jun 10 23:31 WAT
+Start testing: Jun 11 09:50 WAT
 ----------------------------------------------------------
 1/1 Testing: QuantTradingLabTests
 1/1 Test: QuantTradingLabTests
-Command: "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/bin/qtl_tests"
-Directory: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/tests
-"QuantTradingLabTests" start time: Jun 10 23:31 WAT
+Command: "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/bin/qtl_tests"
+Directory: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/tests
+"QuantTradingLabTests" start time: Jun 11 09:50 WAT
 Output:
 ----------------------------------------------------------
-[23:31:46.150] ERROR [EventLoop] Handler threw: loop isolation test
+[09:50:21.496] ERROR [EventLoop] Handler threw: loop isolation test
 [PASS] EventSystem/construction
 [PASS] EventSystem/EventQueue_basic
 [PASS] EventSystem/EventQueue_multithreaded
@@ -59,6 +59,25 @@ Output:
 +----------+----------+----------+------------------------+
 | Orders: 4      Trades: 0      Spread: 0.0200      |
 +----------------------------------------------------------+
+[09:50:21.946] INFO  [TickReplayer] Loaded '/tmp/qtl_test_trade1.csv' type=Trade
+[09:50:21.948] INFO  [TickReplayer] Replay complete: 1000 ticks in 0.00s  (606.2x speed)
+[09:50:21.954] INFO  [TickReplayer] Loaded '/tmp/qtl_test_trade_pr.csv' type=Trade
+[09:50:21.956] INFO  [TickReplayer] Paused at tick 499
+[09:50:22.009] INFO  [TickReplayer] Resumed
+[09:50:22.012] INFO  [TickReplayer] Replay complete: 2000 ticks in 0.06s  (34.4x speed)
+[09:50:22.013] INFO  [TickReplayer] Loaded '/tmp/qtl_test_merge_aapl.csv' type=Trade
+[09:50:22.013] INFO  [TickReplayer] Loaded '/tmp/qtl_test_merge_msft.csv' type=Trade
+[09:50:22.015] INFO  [TickReplayer] Replay complete: 1000 ticks in 0.00s  (1203.3x speed)
+[09:50:22.015] INFO  [TickReplayer] Loaded '/tmp/qtl_test_clock.csv' type=Trade
+[09:50:22.015] INFO  [TickReplayer] Replay complete: 100 ticks in 0.00s  (646.9x speed)
+[09:50:22.015] INFO  [TickReplayer] Loaded '/tmp/qtl_test_callback.csv' type=Quote
+[09:50:22.016] INFO  [TickReplayer] Replay complete: 200 ticks in 0.00s  (328.6x speed)
+[09:50:22.016] INFO  [TickReplayer] Loaded '/tmp/qtl_test_evloop.csv' type=Quote
+[09:50:22.016] INFO  [TickReplayer] Replay complete: 50 ticks in 0.00s  (97.4x speed)
+[09:50:22.017] INFO  [TickReplayer] Loaded '/tmp/qtl_test_stats.csv' type=Trade
+[09:50:22.018] INFO  [TickReplayer] Replay complete: 300 ticks in 0.00s  (326.2x speed)
+[09:50:22.018] INFO  [TickReplayer] Loaded '/tmp/qtl_test_malformed.csv' type=Trade
+[09:50:22.018] INFO  [TickReplayer] Replay complete: 3 ticks in 0.00s  (0.0x speed)
 [PASS] OrderBook/printbook_output
 [PASS] OrderBook/snapshot_depth
 [PASS] OrderBook/large_scale_10k
@@ -88,15 +107,37 @@ Output:
 [PASS] registerPortfolioTests/placeholder
 [PASS] registerBlackScholesTests/placeholder
 [PASS] registerPerformanceMetricsTests/placeholder
+[PASS] MarketData/parse_trade_tick
+[PASS] MarketData/parse_quote_tick
+[PASS] MarketData/parse_book_update
+[PASS] MarketData/header_detection
+[PASS] MarketData/side_parsing
+[PASS] MarketData/action_parsing
+[PASS] MarketData/malformed_line_throws
+[PASS] MarketData/anytick_union
+[PASS] MarketData/feed_trade_processing
+[PASS] MarketData/feed_quote_and_event
+[PASS] MarketData/crossed_quote
+[PASS] MarketData/bar_aggregation
+[PASS] MarketData/multi_symbol_isolation
+[PASS] MarketData/feed_stats
+[PASS] MarketData/replayer_load_replay
+[PASS] MarketData/replayer_pause_resume
+[PASS] MarketData/replayer_multi_file_merge
+[PASS] MarketData/replayer_drives_simclock
+[PASS] MarketData/replayer_tick_callback
+[PASS] MarketData/replayer_drives_eventloop
+[PASS] MarketData/replayer_stats
+[PASS] MarketData/replayer_malformed_skipped
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Results: 64 passed, 0 failed / 64 total
+Results: 86 passed, 0 failed / 86 total
 <end of output>
-Test time =   0.51 sec
+Test time =   0.61 sec
 ----------------------------------------------------------
 Test Passed.
-"QuantTradingLabTests" end time: Jun 10 23:31 WAT
+"QuantTradingLabTests" end time: Jun 11 09:50 WAT
 "QuantTradingLabTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 10 23:31 WAT
+End testing: Jun 11 09:50 WAT

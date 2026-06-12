@@ -1,6 +1,6 @@
 /**
  * @file backtesting/replay/TickReplayer.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * TickReplayer is header-only. This TU satisfies CMake.
  */
 #include "backtesting/replay/TickReplayer.hpp"
 namespace qtl {}

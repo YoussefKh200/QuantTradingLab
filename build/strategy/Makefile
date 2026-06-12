@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab
+CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build
+CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/strategy//CMakeFiles/progress.marks
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strategy/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build/CMakeFiles 0
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/strategy//CMakeFiles/progress.marks
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strategy/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strategy/clean
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strategy/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strategy/preinstall
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strategy/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strategy/preinstall
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strategy/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 strategy/CMakeFiles/qtl_strategy.dir/rule:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strategy/CMakeFiles/qtl_strategy.dir/rule
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strategy/CMakeFiles/qtl_strategy.dir/rule
 .PHONY : strategy/CMakeFiles/qtl_strategy.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ qtl_strategy: strategy/CMakeFiles/qtl_strategy.dir/rule
 
 # fast build rule for target.
 qtl_strategy/fast:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/build
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/build
 .PHONY : qtl_strategy/fast
 
 market_making/MarketMakingStrategy.o: market_making/MarketMakingStrategy.cpp.o
@@ -190,7 +190,7 @@ market_making/MarketMakingStrategy.o: market_making/MarketMakingStrategy.cpp.o
 
 # target to build an object file
 market_making/MarketMakingStrategy.cpp.o:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o
 .PHONY : market_making/MarketMakingStrategy.cpp.o
 
 market_making/MarketMakingStrategy.i: market_making/MarketMakingStrategy.cpp.i
@@ -198,7 +198,7 @@ market_making/MarketMakingStrategy.i: market_making/MarketMakingStrategy.cpp.i
 
 # target to preprocess a source file
 market_making/MarketMakingStrategy.cpp.i:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.i
 .PHONY : market_making/MarketMakingStrategy.cpp.i
 
 market_making/MarketMakingStrategy.s: market_making/MarketMakingStrategy.cpp.s
@@ -206,7 +206,7 @@ market_making/MarketMakingStrategy.s: market_making/MarketMakingStrategy.cpp.s
 
 # target to generate assembly for a file
 market_making/MarketMakingStrategy.cpp.s:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.s
 .PHONY : market_making/MarketMakingStrategy.cpp.s
 
 mean_reversion/MeanReversionStrategy.o: mean_reversion/MeanReversionStrategy.cpp.o
@@ -214,7 +214,7 @@ mean_reversion/MeanReversionStrategy.o: mean_reversion/MeanReversionStrategy.cpp
 
 # target to build an object file
 mean_reversion/MeanReversionStrategy.cpp.o:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o
 .PHONY : mean_reversion/MeanReversionStrategy.cpp.o
 
 mean_reversion/MeanReversionStrategy.i: mean_reversion/MeanReversionStrategy.cpp.i
@@ -222,7 +222,7 @@ mean_reversion/MeanReversionStrategy.i: mean_reversion/MeanReversionStrategy.cpp
 
 # target to preprocess a source file
 mean_reversion/MeanReversionStrategy.cpp.i:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.i
 .PHONY : mean_reversion/MeanReversionStrategy.cpp.i
 
 mean_reversion/MeanReversionStrategy.s: mean_reversion/MeanReversionStrategy.cpp.s
@@ -230,7 +230,7 @@ mean_reversion/MeanReversionStrategy.s: mean_reversion/MeanReversionStrategy.cpp
 
 # target to generate assembly for a file
 mean_reversion/MeanReversionStrategy.cpp.s:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.s
 .PHONY : mean_reversion/MeanReversionStrategy.cpp.s
 
 momentum/MomentumStrategy.o: momentum/MomentumStrategy.cpp.o
@@ -238,7 +238,7 @@ momentum/MomentumStrategy.o: momentum/MomentumStrategy.cpp.o
 
 # target to build an object file
 momentum/MomentumStrategy.cpp.o:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o
 .PHONY : momentum/MomentumStrategy.cpp.o
 
 momentum/MomentumStrategy.i: momentum/MomentumStrategy.cpp.i
@@ -246,7 +246,7 @@ momentum/MomentumStrategy.i: momentum/MomentumStrategy.cpp.i
 
 # target to preprocess a source file
 momentum/MomentumStrategy.cpp.i:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.i
 .PHONY : momentum/MomentumStrategy.cpp.i
 
 momentum/MomentumStrategy.s: momentum/MomentumStrategy.cpp.s
@@ -254,7 +254,7 @@ momentum/MomentumStrategy.s: momentum/MomentumStrategy.cpp.s
 
 # target to generate assembly for a file
 momentum/MomentumStrategy.cpp.s:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.s
 .PHONY : momentum/MomentumStrategy.cpp.s
 
 orderflow/OrderFlowStrategy.o: orderflow/OrderFlowStrategy.cpp.o
@@ -262,7 +262,7 @@ orderflow/OrderFlowStrategy.o: orderflow/OrderFlowStrategy.cpp.o
 
 # target to build an object file
 orderflow/OrderFlowStrategy.cpp.o:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o
 .PHONY : orderflow/OrderFlowStrategy.cpp.o
 
 orderflow/OrderFlowStrategy.i: orderflow/OrderFlowStrategy.cpp.i
@@ -270,7 +270,7 @@ orderflow/OrderFlowStrategy.i: orderflow/OrderFlowStrategy.cpp.i
 
 # target to preprocess a source file
 orderflow/OrderFlowStrategy.cpp.i:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.i
 .PHONY : orderflow/OrderFlowStrategy.cpp.i
 
 orderflow/OrderFlowStrategy.s: orderflow/OrderFlowStrategy.cpp.s
@@ -278,7 +278,7 @@ orderflow/OrderFlowStrategy.s: orderflow/OrderFlowStrategy.cpp.s
 
 # target to generate assembly for a file
 orderflow/OrderFlowStrategy.cpp.s:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f strategy/CMakeFiles/qtl_strategy.dir/build.make strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.s
 .PHONY : orderflow/OrderFlowStrategy.cpp.s
 
 # Help Target
@@ -318,6 +318,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase4/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

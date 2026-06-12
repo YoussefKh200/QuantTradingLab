@@ -1,2 +1,2 @@
-QuantTradingLabTests 2 0.255071
+QuantTradingLabTests 1 0.606276
 ---

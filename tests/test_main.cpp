@@ -34,6 +34,7 @@ void registerRiskEngineTests();
 void registerPortfolioTests();
 void registerBlackScholesTests();
 void registerPerformanceMetricsTests();
+void registerMarketDataTests();
 
 int main() {
     // Register all test suites
@@ -44,6 +45,7 @@ int main() {
     registerPortfolioTests();
     registerBlackScholesTests();
     registerPerformanceMetricsTests();
+    registerMarketDataTests();
 
     int passed = 0, failed = 0;
     std::vector<std::string> failures;
