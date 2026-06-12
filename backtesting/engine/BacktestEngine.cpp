@@ -1,6 +1,6 @@
 /**
  * @file backtesting/engine/BacktestEngine.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * Header-only implementation. This TU satisfies CMake.
  */
 #include "backtesting/engine/BacktestEngine.hpp"
 namespace qtl {}

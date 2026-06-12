@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab
+# Install script for directory: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,47 +44,47 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/core/cmake_install.cmake")
+  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/exchange/cmake_install.cmake")
+  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/exchange/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/strategy/cmake_install.cmake")
+  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk/cmake_install.cmake")
+  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio/cmake_install.cmake")
+  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/backtesting/cmake_install.cmake")
+  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/backtesting/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/analytics/cmake_install.cmake")
+  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/analytics/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/options/cmake_install.cmake")
+  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/options/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/tests/cmake_install.cmake")
+  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/tests/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -94,7 +94,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/QuantTradingLab"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/bin/QuantTradingLab")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/bin/QuantTradingLab")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/QuantTradingLab" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/QuantTradingLab")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -104,13 +104,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles/QuantTradingLab.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
+  include("/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles/QuantTradingLab.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/install_local_manifest.txt"
+  file(WRITE "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -126,6 +126,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

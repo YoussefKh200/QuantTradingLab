@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libqtl_strategy.a CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o
+/usr/bin/ranlib ../lib/libqtl_strategy.a

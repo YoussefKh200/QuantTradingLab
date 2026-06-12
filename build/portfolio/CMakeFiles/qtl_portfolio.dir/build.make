@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab
+CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build
+CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build
 
 # Include any dependencies generated for this target.
 include portfolio/CMakeFiles/qtl_portfolio.dir/depend.make
@@ -73,46 +73,46 @@ portfolio/CMakeFiles/qtl_portfolio.dir/codegen:
 .PHONY : portfolio/CMakeFiles/qtl_portfolio.dir/codegen
 
 portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o: portfolio/CMakeFiles/qtl_portfolio.dir/flags.make
-portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/pnl/PnLTracker.cpp
+portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/pnl/PnLTracker.cpp
 portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o: portfolio/CMakeFiles/qtl_portfolio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o -MF CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o.d -o CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/pnl/PnLTracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o -MF CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o.d -o CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/pnl/PnLTracker.cpp
 
 portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/pnl/PnLTracker.cpp > CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/pnl/PnLTracker.cpp > CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.i
 
 portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/pnl/PnLTracker.cpp -o CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/pnl/PnLTracker.cpp -o CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.s
 
 portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o: portfolio/CMakeFiles/qtl_portfolio.dir/flags.make
-portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/positions/PositionManager.cpp
+portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/positions/PositionManager.cpp
 portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o: portfolio/CMakeFiles/qtl_portfolio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o -MF CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o.d -o CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/positions/PositionManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o -MF CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o.d -o CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/positions/PositionManager.cpp
 
 portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/positions/PositionManager.cpp > CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/positions/PositionManager.cpp > CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.i
 
 portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/positions/PositionManager.cpp -o CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/positions/PositionManager.cpp -o CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.s
 
 portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o: portfolio/CMakeFiles/qtl_portfolio.dir/flags.make
-portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/accounting/PortfolioAccountant.cpp
+portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/accounting/PortfolioAccountant.cpp
 portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o: portfolio/CMakeFiles/qtl_portfolio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o -MF CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o.d -o CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/accounting/PortfolioAccountant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o -MF CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o.d -o CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/accounting/PortfolioAccountant.cpp
 
 portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/accounting/PortfolioAccountant.cpp > CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/accounting/PortfolioAccountant.cpp > CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.i
 
 portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio/accounting/PortfolioAccountant.cpp -o CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio/accounting/PortfolioAccountant.cpp -o CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.s
 
 # Object files for target qtl_portfolio
 qtl_portfolio_OBJECTS = \
@@ -128,19 +128,19 @@ lib/libqtl_portfolio.a: portfolio/CMakeFiles/qtl_portfolio.dir/positions/Positio
 lib/libqtl_portfolio.a: portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o
 lib/libqtl_portfolio.a: portfolio/CMakeFiles/qtl_portfolio.dir/build.make
 lib/libqtl_portfolio.a: portfolio/CMakeFiles/qtl_portfolio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../lib/libqtl_portfolio.a"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && $(CMAKE_COMMAND) -P CMakeFiles/qtl_portfolio.dir/cmake_clean_target.cmake
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_portfolio.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../lib/libqtl_portfolio.a"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && $(CMAKE_COMMAND) -P CMakeFiles/qtl_portfolio.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_portfolio.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 portfolio/CMakeFiles/qtl_portfolio.dir/build: lib/libqtl_portfolio.a
 .PHONY : portfolio/CMakeFiles/qtl_portfolio.dir/build
 
 portfolio/CMakeFiles/qtl_portfolio.dir/clean:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio && $(CMAKE_COMMAND) -P CMakeFiles/qtl_portfolio.dir/cmake_clean.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio && $(CMAKE_COMMAND) -P CMakeFiles/qtl_portfolio.dir/cmake_clean.cmake
 .PHONY : portfolio/CMakeFiles/qtl_portfolio.dir/clean
 
 portfolio/CMakeFiles/qtl_portfolio.dir/depend:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/portfolio /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio/CMakeFiles/qtl_portfolio.dir/DependInfo.cmake "--color=$(COLOR)" qtl_portfolio
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/portfolio /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio/CMakeFiles/qtl_portfolio.dir/DependInfo.cmake "--color=$(COLOR)" qtl_portfolio
 .PHONY : portfolio/CMakeFiles/qtl_portfolio.dir/depend
 

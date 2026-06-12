@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build_debug/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build_debug/core/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build_debug/exchange/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build_debug/strategy/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build_debug/risk/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build_debug/portfolio/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build_debug/backtesting/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build_debug/analytics/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build_debug/options/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build_debug/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab
+CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build
+CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/portfolio//CMakeFiles/progress.marks
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles 0
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio//CMakeFiles/progress.marks
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio/clean
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio/preinstall
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio/preinstall
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 portfolio/CMakeFiles/qtl_portfolio.dir/rule:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio/CMakeFiles/qtl_portfolio.dir/rule
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 portfolio/CMakeFiles/qtl_portfolio.dir/rule
 .PHONY : portfolio/CMakeFiles/qtl_portfolio.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ qtl_portfolio: portfolio/CMakeFiles/qtl_portfolio.dir/rule
 
 # fast build rule for target.
 qtl_portfolio/fast:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/build
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/build
 .PHONY : qtl_portfolio/fast
 
 accounting/PortfolioAccountant.o: accounting/PortfolioAccountant.cpp.o
@@ -190,7 +190,7 @@ accounting/PortfolioAccountant.o: accounting/PortfolioAccountant.cpp.o
 
 # target to build an object file
 accounting/PortfolioAccountant.cpp.o:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.o
 .PHONY : accounting/PortfolioAccountant.cpp.o
 
 accounting/PortfolioAccountant.i: accounting/PortfolioAccountant.cpp.i
@@ -198,7 +198,7 @@ accounting/PortfolioAccountant.i: accounting/PortfolioAccountant.cpp.i
 
 # target to preprocess a source file
 accounting/PortfolioAccountant.cpp.i:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.i
 .PHONY : accounting/PortfolioAccountant.cpp.i
 
 accounting/PortfolioAccountant.s: accounting/PortfolioAccountant.cpp.s
@@ -206,7 +206,7 @@ accounting/PortfolioAccountant.s: accounting/PortfolioAccountant.cpp.s
 
 # target to generate assembly for a file
 accounting/PortfolioAccountant.cpp.s:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/accounting/PortfolioAccountant.cpp.s
 .PHONY : accounting/PortfolioAccountant.cpp.s
 
 pnl/PnLTracker.o: pnl/PnLTracker.cpp.o
@@ -214,7 +214,7 @@ pnl/PnLTracker.o: pnl/PnLTracker.cpp.o
 
 # target to build an object file
 pnl/PnLTracker.cpp.o:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.o
 .PHONY : pnl/PnLTracker.cpp.o
 
 pnl/PnLTracker.i: pnl/PnLTracker.cpp.i
@@ -222,7 +222,7 @@ pnl/PnLTracker.i: pnl/PnLTracker.cpp.i
 
 # target to preprocess a source file
 pnl/PnLTracker.cpp.i:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.i
 .PHONY : pnl/PnLTracker.cpp.i
 
 pnl/PnLTracker.s: pnl/PnLTracker.cpp.s
@@ -230,7 +230,7 @@ pnl/PnLTracker.s: pnl/PnLTracker.cpp.s
 
 # target to generate assembly for a file
 pnl/PnLTracker.cpp.s:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/pnl/PnLTracker.cpp.s
 .PHONY : pnl/PnLTracker.cpp.s
 
 positions/PositionManager.o: positions/PositionManager.cpp.o
@@ -238,7 +238,7 @@ positions/PositionManager.o: positions/PositionManager.cpp.o
 
 # target to build an object file
 positions/PositionManager.cpp.o:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.o
 .PHONY : positions/PositionManager.cpp.o
 
 positions/PositionManager.i: positions/PositionManager.cpp.i
@@ -246,7 +246,7 @@ positions/PositionManager.i: positions/PositionManager.cpp.i
 
 # target to preprocess a source file
 positions/PositionManager.cpp.i:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.i
 .PHONY : positions/PositionManager.cpp.i
 
 positions/PositionManager.s: positions/PositionManager.cpp.s
@@ -254,7 +254,7 @@ positions/PositionManager.s: positions/PositionManager.cpp.s
 
 # target to generate assembly for a file
 positions/PositionManager.cpp.s:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(MAKE) $(MAKESILENT) -f portfolio/CMakeFiles/qtl_portfolio.dir/build.make portfolio/CMakeFiles/qtl_portfolio.dir/positions/PositionManager.cpp.s
 .PHONY : positions/PositionManager.cpp.s
 
 # Help Target
@@ -291,6 +291,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

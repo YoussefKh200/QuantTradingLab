@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab
+CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build
+CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build
 
 # Include any dependencies generated for this target.
 include risk/CMakeFiles/qtl_risk.dir/depend.make
@@ -73,46 +73,46 @@ risk/CMakeFiles/qtl_risk.dir/codegen:
 .PHONY : risk/CMakeFiles/qtl_risk.dir/codegen
 
 risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o: risk/CMakeFiles/qtl_risk.dir/flags.make
-risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/limits/RiskLimits.cpp
+risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/limits/RiskLimits.cpp
 risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o: risk/CMakeFiles/qtl_risk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o -MF CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o.d -o CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/limits/RiskLimits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o -MF CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o.d -o CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/limits/RiskLimits.cpp
 
 risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/limits/RiskLimits.cpp > CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/limits/RiskLimits.cpp > CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.i
 
 risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/limits/RiskLimits.cpp -o CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/limits/RiskLimits.cpp -o CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.s
 
 risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o: risk/CMakeFiles/qtl_risk.dir/flags.make
-risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/exposure/ExposureTracker.cpp
+risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/exposure/ExposureTracker.cpp
 risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o: risk/CMakeFiles/qtl_risk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o -MF CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o.d -o CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/exposure/ExposureTracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o -MF CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o.d -o CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/exposure/ExposureTracker.cpp
 
 risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/exposure/ExposureTracker.cpp > CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/exposure/ExposureTracker.cpp > CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.i
 
 risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/exposure/ExposureTracker.cpp -o CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/exposure/ExposureTracker.cpp -o CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.s
 
 risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o: risk/CMakeFiles/qtl_risk.dir/flags.make
-risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/kill_switch/KillSwitch.cpp
+risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/kill_switch/KillSwitch.cpp
 risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o: risk/CMakeFiles/qtl_risk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o -MF CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o.d -o CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/kill_switch/KillSwitch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o -MF CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o.d -o CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/kill_switch/KillSwitch.cpp
 
 risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/kill_switch/KillSwitch.cpp > CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/kill_switch/KillSwitch.cpp > CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.i
 
 risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk/kill_switch/KillSwitch.cpp -o CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/kill_switch/KillSwitch.cpp -o CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.s
 
 # Object files for target qtl_risk
 qtl_risk_OBJECTS = \
@@ -128,19 +128,19 @@ lib/libqtl_risk.a: risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o
 lib/libqtl_risk.a: risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o
 lib/libqtl_risk.a: risk/CMakeFiles/qtl_risk.dir/build.make
 lib/libqtl_risk.a: risk/CMakeFiles/qtl_risk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../lib/libqtl_risk.a"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && $(CMAKE_COMMAND) -P CMakeFiles/qtl_risk.dir/cmake_clean_target.cmake
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_risk.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../lib/libqtl_risk.a"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && $(CMAKE_COMMAND) -P CMakeFiles/qtl_risk.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_risk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 risk/CMakeFiles/qtl_risk.dir/build: lib/libqtl_risk.a
 .PHONY : risk/CMakeFiles/qtl_risk.dir/build
 
 risk/CMakeFiles/qtl_risk.dir/clean:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk && $(CMAKE_COMMAND) -P CMakeFiles/qtl_risk.dir/cmake_clean.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk && $(CMAKE_COMMAND) -P CMakeFiles/qtl_risk.dir/cmake_clean.cmake
 .PHONY : risk/CMakeFiles/qtl_risk.dir/clean
 
 risk/CMakeFiles/qtl_risk.dir/depend:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/risk /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase5/QuantTradingLab/build/risk/CMakeFiles/qtl_risk.dir/DependInfo.cmake "--color=$(COLOR)" qtl_risk
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk/CMakeFiles/qtl_risk.dir/DependInfo.cmake "--color=$(COLOR)" qtl_risk
 .PHONY : risk/CMakeFiles/qtl_risk.dir/depend
 
