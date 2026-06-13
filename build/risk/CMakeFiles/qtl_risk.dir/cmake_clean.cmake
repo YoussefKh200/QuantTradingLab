@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../lib/libqtl_risk.a"
   "../lib/libqtl_risk.pdb"
+  "CMakeFiles/qtl_risk.dir/RiskEngine.cpp.o"
+  "CMakeFiles/qtl_risk.dir/RiskEngine.cpp.o.d"
   "CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o"
   "CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o.d"
   "CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o"

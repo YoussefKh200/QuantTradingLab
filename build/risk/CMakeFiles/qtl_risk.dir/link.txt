@@ -1,2 +1,2 @@
-/usr/bin/ar qc ../lib/libqtl_risk.a CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o
+/usr/bin/ar qc ../lib/libqtl_risk.a CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o CMakeFiles/qtl_risk.dir/RiskEngine.cpp.o
 /usr/bin/ranlib ../lib/libqtl_risk.a

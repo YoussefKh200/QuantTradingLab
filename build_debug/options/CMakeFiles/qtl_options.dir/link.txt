@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libqtl_options.a CMakeFiles/qtl_options.dir/blackscholes/BlackScholes.cpp.o CMakeFiles/qtl_options.dir/greeks/Greeks.cpp.o CMakeFiles/qtl_options.dir/iv_surface/VolatilitySurface.cpp.o CMakeFiles/qtl_options.dir/gamma_exposure/GammaExposure.cpp.o CMakeFiles/qtl_options.dir/dealer_positioning/DealerPositioning.cpp.o
-/usr/bin/ranlib ../lib/libqtl_options.a

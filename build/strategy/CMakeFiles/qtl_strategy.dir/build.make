@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab
+CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build
+CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build
 
 # Include any dependencies generated for this target.
 include strategy/CMakeFiles/qtl_strategy.dir/depend.make
@@ -73,60 +73,60 @@ strategy/CMakeFiles/qtl_strategy.dir/codegen:
 .PHONY : strategy/CMakeFiles/qtl_strategy.dir/codegen
 
 strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o: strategy/CMakeFiles/qtl_strategy.dir/flags.make
-strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/market_making/MarketMakingStrategy.cpp
+strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/market_making/MarketMakingStrategy.cpp
 strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o: strategy/CMakeFiles/qtl_strategy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o -MF CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o.d -o CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/market_making/MarketMakingStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o -MF CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o.d -o CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/market_making/MarketMakingStrategy.cpp
 
 strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/market_making/MarketMakingStrategy.cpp > CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/market_making/MarketMakingStrategy.cpp > CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.i
 
 strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/market_making/MarketMakingStrategy.cpp -o CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/market_making/MarketMakingStrategy.cpp -o CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.s
 
 strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o: strategy/CMakeFiles/qtl_strategy.dir/flags.make
-strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/mean_reversion/MeanReversionStrategy.cpp
+strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/mean_reversion/MeanReversionStrategy.cpp
 strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o: strategy/CMakeFiles/qtl_strategy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o -MF CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o.d -o CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/mean_reversion/MeanReversionStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o -MF CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o.d -o CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/mean_reversion/MeanReversionStrategy.cpp
 
 strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/mean_reversion/MeanReversionStrategy.cpp > CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/mean_reversion/MeanReversionStrategy.cpp > CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.i
 
 strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/mean_reversion/MeanReversionStrategy.cpp -o CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/mean_reversion/MeanReversionStrategy.cpp -o CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.s
 
 strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o: strategy/CMakeFiles/qtl_strategy.dir/flags.make
-strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/momentum/MomentumStrategy.cpp
+strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/momentum/MomentumStrategy.cpp
 strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o: strategy/CMakeFiles/qtl_strategy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o -MF CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o.d -o CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/momentum/MomentumStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o -MF CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o.d -o CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/momentum/MomentumStrategy.cpp
 
 strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/momentum/MomentumStrategy.cpp > CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/momentum/MomentumStrategy.cpp > CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.i
 
 strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/momentum/MomentumStrategy.cpp -o CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/momentum/MomentumStrategy.cpp -o CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.s
 
 strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o: strategy/CMakeFiles/qtl_strategy.dir/flags.make
-strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/orderflow/OrderFlowStrategy.cpp
+strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/orderflow/OrderFlowStrategy.cpp
 strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o: strategy/CMakeFiles/qtl_strategy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o -MF CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o.d -o CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/orderflow/OrderFlowStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o -MF CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o.d -o CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/orderflow/OrderFlowStrategy.cpp
 
 strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/orderflow/OrderFlowStrategy.cpp > CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/orderflow/OrderFlowStrategy.cpp > CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.i
 
 strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy/orderflow/OrderFlowStrategy.cpp -o CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/orderflow/OrderFlowStrategy.cpp -o CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.s
 
 # Object files for target qtl_strategy
 qtl_strategy_OBJECTS = \
@@ -144,19 +144,19 @@ lib/libqtl_strategy.a: strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStr
 lib/libqtl_strategy.a: strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o
 lib/libqtl_strategy.a: strategy/CMakeFiles/qtl_strategy.dir/build.make
 lib/libqtl_strategy.a: strategy/CMakeFiles/qtl_strategy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../lib/libqtl_strategy.a"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && $(CMAKE_COMMAND) -P CMakeFiles/qtl_strategy.dir/cmake_clean_target.cmake
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_strategy.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../lib/libqtl_strategy.a"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && $(CMAKE_COMMAND) -P CMakeFiles/qtl_strategy.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_strategy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 strategy/CMakeFiles/qtl_strategy.dir/build: lib/libqtl_strategy.a
 .PHONY : strategy/CMakeFiles/qtl_strategy.dir/build
 
 strategy/CMakeFiles/qtl_strategy.dir/clean:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy && $(CMAKE_COMMAND) -P CMakeFiles/qtl_strategy.dir/cmake_clean.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy && $(CMAKE_COMMAND) -P CMakeFiles/qtl_strategy.dir/cmake_clean.cmake
 .PHONY : strategy/CMakeFiles/qtl_strategy.dir/clean
 
 strategy/CMakeFiles/qtl_strategy.dir/depend:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/strategy /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy/CMakeFiles/qtl_strategy.dir/DependInfo.cmake "--color=$(COLOR)" qtl_strategy
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy/CMakeFiles/qtl_strategy.dir/DependInfo.cmake "--color=$(COLOR)" qtl_strategy
 .PHONY : strategy/CMakeFiles/qtl_strategy.dir/depend
 

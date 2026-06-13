@@ -1,8 +1,8 @@
 risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o: \
- /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/kill_switch/KillSwitch.cpp \
+ /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/risk/kill_switch/KillSwitch.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/risk/kill_switch/KillSwitch.hpp \
- /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/core/Types.hpp \
+ /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/risk/kill_switch/KillSwitch.hpp \
+ /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/core/Types.hpp \
  /usr/include/c++/15/cstdint \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -213,4 +213,43 @@ risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o: \
  /usr/include/c++/15/bits/formatfwd.h \
  /usr/include/c++/15/bits/ranges_algobase.h \
  /usr/include/c++/15/bits/unicode.h \
- /usr/include/c++/15/bits/unicode-data.h
+ /usr/include/c++/15/bits/unicode-data.h /usr/include/c++/15/atomic \
+ /usr/include/c++/15/bits/atomic_base.h \
+ /usr/include/c++/15/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/15/bits/atomic_wait.h /usr/include/c++/15/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/syscall.h \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h \
+ /usr/include/c++/15/bits/std_mutex.h /usr/include/c++/15/functional \
+ /usr/include/c++/15/bits/std_function.h \
+ /usr/include/c++/15/unordered_map \
+ /usr/include/c++/15/bits/unordered_map.h \
+ /usr/include/c++/15/bits/hashtable.h \
+ /usr/include/c++/15/bits/hashtable_policy.h \
+ /usr/include/c++/15/bits/node_handle.h \
+ /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/mutex \
+ /usr/include/c++/15/bits/unique_lock.h /usr/include/c++/15/thread \
+ /usr/include/c++/15/stop_token /usr/include/c++/15/bits/std_thread.h \
+ /usr/include/c++/15/semaphore /usr/include/c++/15/bits/semaphore_base.h \
+ /usr/include/c++/15/bits/atomic_timed_wait.h \
+ /usr/include/c++/15/bits/this_thread_sleep.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
+ /usr/include/x86_64-linux-gnu/bits/semaphore.h

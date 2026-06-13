@@ -13,6 +13,7 @@ add_executable(qtl_tests
     test_black_scholes.cpp
     test_performance_metrics.cpp
     test_market_data.cpp
+    test_risk_engine.cpp
 )
 
 target_include_directories(qtl_tests PRIVATE ${CMAKE_SOURCE_DIR})

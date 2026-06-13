@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libqtl_exchange.a CMakeFiles/qtl_exchange.dir/orderbook/Order.cpp.o CMakeFiles/qtl_exchange.dir/orderbook/OrderBook.cpp.o CMakeFiles/qtl_exchange.dir/matching/MatchingEngine.cpp.o CMakeFiles/qtl_exchange.dir/execution/ExecutionReport.cpp.o CMakeFiles/qtl_exchange.dir/marketdata/Tick.cpp.o CMakeFiles/qtl_exchange.dir/marketdata/TickParser.cpp.o CMakeFiles/qtl_exchange.dir/marketdata/MarketDataFeed.cpp.o
-/usr/bin/ranlib ../lib/libqtl_exchange.a

@@ -1,16 +1,16 @@
 {
 	"InstallScripts" : 
 	[
-		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/cmake_install.cmake",
-		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/core/cmake_install.cmake",
-		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/exchange/cmake_install.cmake",
-		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/strategy/cmake_install.cmake",
-		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/risk/cmake_install.cmake",
-		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/portfolio/cmake_install.cmake",
-		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/backtesting/cmake_install.cmake",
-		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/analytics/cmake_install.cmake",
-		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/options/cmake_install.cmake",
-		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase6/QuantTradingLab/build/tests/cmake_install.cmake"
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/core/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/exchange/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/strategy/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/risk/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/portfolio/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/analytics/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/options/cmake_install.cmake",
+		"/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/tests/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
