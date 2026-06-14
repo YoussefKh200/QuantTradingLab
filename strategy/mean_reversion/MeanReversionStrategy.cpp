@@ -1,6 +1,5 @@
 /**
- * @file strategy/mean_reversion/MeanReversionStrategy.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * @file strategy/mean_reversion/MeanReversionStrategy.cpp — Header-only. This TU satisfies CMake.
  */
 #include "strategy/mean_reversion/MeanReversionStrategy.hpp"
 namespace qtl {}

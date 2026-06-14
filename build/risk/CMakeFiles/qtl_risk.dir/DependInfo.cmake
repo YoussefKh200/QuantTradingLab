@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/risk/RiskEngine.cpp" "risk/CMakeFiles/qtl_risk.dir/RiskEngine.cpp.o" "gcc" "risk/CMakeFiles/qtl_risk.dir/RiskEngine.cpp.o.d"
-  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/risk/exposure/ExposureTracker.cpp" "risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o" "gcc" "risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o.d"
-  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/risk/kill_switch/KillSwitch.cpp" "risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o" "gcc" "risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o.d"
-  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/risk/limits/RiskLimits.cpp" "risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o" "gcc" "risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o.d"
+  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/risk/RiskEngine.cpp" "risk/CMakeFiles/qtl_risk.dir/RiskEngine.cpp.o" "gcc" "risk/CMakeFiles/qtl_risk.dir/RiskEngine.cpp.o.d"
+  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/risk/exposure/ExposureTracker.cpp" "risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o" "gcc" "risk/CMakeFiles/qtl_risk.dir/exposure/ExposureTracker.cpp.o.d"
+  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/risk/kill_switch/KillSwitch.cpp" "risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o" "gcc" "risk/CMakeFiles/qtl_risk.dir/kill_switch/KillSwitch.cpp.o.d"
+  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/risk/limits/RiskLimits.cpp" "risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o" "gcc" "risk/CMakeFiles/qtl_risk.dir/limits/RiskLimits.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,6 +1,5 @@
 /**
- * @file strategy/market_making/MarketMakingStrategy.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * @file strategy/market_making/MarketMakingStrategy.cpp — Header-only. This TU satisfies CMake.
  */
 #include "strategy/market_making/MarketMakingStrategy.hpp"
 namespace qtl {}

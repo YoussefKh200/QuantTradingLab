@@ -11,6 +11,7 @@
   CMakeFiles/qtl_tests.dir/test_black_scholes.cpp.o \
   CMakeFiles/qtl_tests.dir/test_performance_metrics.cpp.o \
   CMakeFiles/qtl_tests.dir/test_market_data.cpp.o \
+  CMakeFiles/qtl_tests.dir/test_strategy_framework.cpp.o \
   ../lib/libqtl_core.a \
   ../lib/libqtl_exchange.a \
   ../lib/libqtl_strategy.a \
@@ -74,6 +75,8 @@ CMakeFiles/qtl_tests.dir/test_black_scholes.cpp.o:
 CMakeFiles/qtl_tests.dir/test_performance_metrics.cpp.o:
 
 CMakeFiles/qtl_tests.dir/test_market_data.cpp.o:
+
+CMakeFiles/qtl_tests.dir/test_strategy_framework.cpp.o:
 
 ../lib/libqtl_core.a:
 

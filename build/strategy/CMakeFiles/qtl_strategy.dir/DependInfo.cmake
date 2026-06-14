@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/market_making/MarketMakingStrategy.cpp" "strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o" "gcc" "strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o.d"
-  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/mean_reversion/MeanReversionStrategy.cpp" "strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o" "gcc" "strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o.d"
-  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/momentum/MomentumStrategy.cpp" "strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o" "gcc" "strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o.d"
-  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/strategy/orderflow/OrderFlowStrategy.cpp" "strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o" "gcc" "strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o.d"
+  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/strategy/market_making/MarketMakingStrategy.cpp" "strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o" "gcc" "strategy/CMakeFiles/qtl_strategy.dir/market_making/MarketMakingStrategy.cpp.o.d"
+  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/strategy/mean_reversion/MeanReversionStrategy.cpp" "strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o" "gcc" "strategy/CMakeFiles/qtl_strategy.dir/mean_reversion/MeanReversionStrategy.cpp.o.d"
+  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/strategy/momentum/MomentumStrategy.cpp" "strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o" "gcc" "strategy/CMakeFiles/qtl_strategy.dir/momentum/MomentumStrategy.cpp.o.d"
+  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/strategy/orderflow/OrderFlowStrategy.cpp" "strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o" "gcc" "strategy/CMakeFiles/qtl_strategy.dir/orderflow/OrderFlowStrategy.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

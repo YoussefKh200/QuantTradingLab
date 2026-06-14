@@ -20,6 +20,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qtl_tests.dir/test_portfolio.cpp.o.d"
   "CMakeFiles/qtl_tests.dir/test_risk_engine.cpp.o"
   "CMakeFiles/qtl_tests.dir/test_risk_engine.cpp.o.d"
+  "CMakeFiles/qtl_tests.dir/test_strategy_framework.cpp.o"
+  "CMakeFiles/qtl_tests.dir/test_strategy_framework.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

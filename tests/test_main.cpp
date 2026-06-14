@@ -31,11 +31,13 @@ void registerEventSystemTests();
 void registerOrderBookTests();
 void registerMatchingEngineTests();
 void registerRiskEngineTests();
+void registerStrategyFrameworkTests();
 void registerPortfolioTests();
 void registerBlackScholesTests();
 void registerPerformanceMetricsTests();
 void registerMarketDataTests();
 void registerRiskEngineTests();
+void registerStrategyFrameworkTests();
 
 int main() {
     // Register all test suites
@@ -43,11 +45,13 @@ int main() {
     registerOrderBookTests();
     registerMatchingEngineTests();
     registerRiskEngineTests();
+    registerStrategyFrameworkTests();
     registerPortfolioTests();
     registerBlackScholesTests();
     registerPerformanceMetricsTests();
     registerMarketDataTests();
     registerRiskEngineTests();
+    registerStrategyFrameworkTests();
 
     int passed = 0, failed = 0;
     std::vector<std::string> failures;

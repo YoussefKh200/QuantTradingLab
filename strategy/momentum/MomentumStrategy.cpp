@@ -1,6 +1,5 @@
 /**
- * @file strategy/momentum/MomentumStrategy.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * @file strategy/momentum/MomentumStrategy.cpp — Header-only. This TU satisfies CMake.
  */
 #include "strategy/momentum/MomentumStrategy.hpp"
 namespace qtl {}

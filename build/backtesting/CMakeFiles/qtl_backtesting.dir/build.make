@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab
+CMAKE_SOURCE_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build
+CMAKE_BINARY_DIR = /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build
 
 # Include any dependencies generated for this target.
 include backtesting/CMakeFiles/qtl_backtesting.dir/depend.make
@@ -73,60 +73,60 @@ backtesting/CMakeFiles/qtl_backtesting.dir/codegen:
 .PHONY : backtesting/CMakeFiles/qtl_backtesting.dir/codegen
 
 backtesting/CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o: backtesting/CMakeFiles/qtl_backtesting.dir/flags.make
-backtesting/CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/engine/BacktestEngine.cpp
+backtesting/CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/engine/BacktestEngine.cpp
 backtesting/CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o: backtesting/CMakeFiles/qtl_backtesting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object backtesting/CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT backtesting/CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o -MF CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o.d -o CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/engine/BacktestEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object backtesting/CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT backtesting/CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o -MF CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o.d -o CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/engine/BacktestEngine.cpp
 
 backtesting/CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/engine/BacktestEngine.cpp > CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/engine/BacktestEngine.cpp > CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.i
 
 backtesting/CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/engine/BacktestEngine.cpp -o CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/engine/BacktestEngine.cpp -o CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.s
 
 backtesting/CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o: backtesting/CMakeFiles/qtl_backtesting.dir/flags.make
-backtesting/CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/engine/ReportGenerator.cpp
+backtesting/CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/engine/ReportGenerator.cpp
 backtesting/CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o: backtesting/CMakeFiles/qtl_backtesting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object backtesting/CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT backtesting/CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o -MF CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o.d -o CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/engine/ReportGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object backtesting/CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT backtesting/CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o -MF CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o.d -o CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/engine/ReportGenerator.cpp
 
 backtesting/CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/engine/ReportGenerator.cpp > CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/engine/ReportGenerator.cpp > CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.i
 
 backtesting/CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/engine/ReportGenerator.cpp -o CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/engine/ReportGenerator.cpp -o CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.s
 
 backtesting/CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o: backtesting/CMakeFiles/qtl_backtesting.dir/flags.make
-backtesting/CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/simulator/MarketSimulator.cpp
+backtesting/CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/simulator/MarketSimulator.cpp
 backtesting/CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o: backtesting/CMakeFiles/qtl_backtesting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object backtesting/CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT backtesting/CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o -MF CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o.d -o CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/simulator/MarketSimulator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object backtesting/CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT backtesting/CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o -MF CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o.d -o CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/simulator/MarketSimulator.cpp
 
 backtesting/CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/simulator/MarketSimulator.cpp > CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/simulator/MarketSimulator.cpp > CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.i
 
 backtesting/CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/simulator/MarketSimulator.cpp -o CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/simulator/MarketSimulator.cpp -o CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.s
 
 backtesting/CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o: backtesting/CMakeFiles/qtl_backtesting.dir/flags.make
-backtesting/CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/replay/TickReplayer.cpp
+backtesting/CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/replay/TickReplayer.cpp
 backtesting/CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o: backtesting/CMakeFiles/qtl_backtesting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object backtesting/CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT backtesting/CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o -MF CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o.d -o CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/replay/TickReplayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object backtesting/CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT backtesting/CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o -MF CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o.d -o CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o -c /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/replay/TickReplayer.cpp
 
 backtesting/CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.i"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/replay/TickReplayer.cpp > CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.i
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/replay/TickReplayer.cpp > CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.i
 
 backtesting/CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.s"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting/replay/TickReplayer.cpp -o CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.s
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting/replay/TickReplayer.cpp -o CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.s
 
 # Object files for target qtl_backtesting
 qtl_backtesting_OBJECTS = \
@@ -144,19 +144,19 @@ lib/libqtl_backtesting.a: backtesting/CMakeFiles/qtl_backtesting.dir/simulator/M
 lib/libqtl_backtesting.a: backtesting/CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o
 lib/libqtl_backtesting.a: backtesting/CMakeFiles/qtl_backtesting.dir/build.make
 lib/libqtl_backtesting.a: backtesting/CMakeFiles/qtl_backtesting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../lib/libqtl_backtesting.a"
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && $(CMAKE_COMMAND) -P CMakeFiles/qtl_backtesting.dir/cmake_clean_target.cmake
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_backtesting.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../lib/libqtl_backtesting.a"
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && $(CMAKE_COMMAND) -P CMakeFiles/qtl_backtesting.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtl_backtesting.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 backtesting/CMakeFiles/qtl_backtesting.dir/build: lib/libqtl_backtesting.a
 .PHONY : backtesting/CMakeFiles/qtl_backtesting.dir/build
 
 backtesting/CMakeFiles/qtl_backtesting.dir/clean:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting && $(CMAKE_COMMAND) -P CMakeFiles/qtl_backtesting.dir/cmake_clean.cmake
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting && $(CMAKE_COMMAND) -P CMakeFiles/qtl_backtesting.dir/cmake_clean.cmake
 .PHONY : backtesting/CMakeFiles/qtl_backtesting.dir/clean
 
 backtesting/CMakeFiles/qtl_backtesting.dir/depend:
-	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/backtesting /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/build/backtesting/CMakeFiles/qtl_backtesting.dir/DependInfo.cmake "--color=$(COLOR)" qtl_backtesting
+	cd /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/backtesting /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/build/backtesting/CMakeFiles/qtl_backtesting.dir/DependInfo.cmake "--color=$(COLOR)" qtl_backtesting
 .PHONY : backtesting/CMakeFiles/qtl_backtesting.dir/depend
 

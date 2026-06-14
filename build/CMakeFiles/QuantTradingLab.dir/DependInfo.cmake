@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase7/QuantTradingLab/main.cpp" "CMakeFiles/QuantTradingLab.dir/main.cpp.o" "gcc" "CMakeFiles/QuantTradingLab.dir/main.cpp.o.d"
+  "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase8/QuantTradingLab/main.cpp" "CMakeFiles/QuantTradingLab.dir/main.cpp.o" "gcc" "CMakeFiles/QuantTradingLab.dir/main.cpp.o.d"
   "" "bin/QuantTradingLab" "gcc" "CMakeFiles/QuantTradingLab.dir/link.d"
   )
 
