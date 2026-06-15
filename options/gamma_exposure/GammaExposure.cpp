@@ -1,6 +1,5 @@
 /**
- * @file options/gamma_exposure/GammaExposure.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * @file options/gamma_exposure/GammaExposure.cpp — Header-only. This TU satisfies CMake.
  */
 #include "options/gamma_exposure/GammaExposure.hpp"
 namespace qtl {}

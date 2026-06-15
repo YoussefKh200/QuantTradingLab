@@ -1,7 +1,5 @@
 # ─────────────────────────────────────────────────────────────
 # tests — unit and integration tests
-# Uses minimal hand-rolled test runner (no external dependency
-# in Phase 1). GoogleTest will be wired in Phase 2 onwards.
 # ─────────────────────────────────────────────────────────────
 add_executable(qtl_tests
     test_main.cpp
@@ -10,11 +8,10 @@ add_executable(qtl_tests
     test_matching_engine.cpp
     test_risk_engine.cpp
     test_portfolio.cpp
-    test_black_scholes.cpp
     test_performance_metrics.cpp
     test_market_data.cpp
-    test_risk_engine.cpp
     test_strategy_framework.cpp
+    test_black_scholes.cpp
 )
 
 target_include_directories(qtl_tests PRIVATE ${CMAKE_SOURCE_DIR})

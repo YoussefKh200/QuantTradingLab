@@ -1,10 +1,6 @@
 /**
  * @file tests/test_main.cpp
  * @brief Minimal hand-rolled test runner.
- *
- * Each test_*.cpp provides a void run_<module>_tests() function.
- * This file calls them all and reports pass/fail.
- * GoogleTest will be added as an optional dependency in a later phase.
  */
 
 #include <iostream>
@@ -12,8 +8,6 @@
 #include <vector>
 #include <functional>
 #include <stdexcept>
-
-// ── Test registry ─────────────────────────────────────────────
 
 struct TestCase {
     std::string name;
@@ -26,43 +20,51 @@ void registerTest(std::string name, std::function<void()> fn) {
     g_tests.push_back({std::move(name), std::move(fn)});
 }
 
-// Forward declarations from each test translation unit
+// Forward declarations
 void registerEventSystemTests();
 void registerOrderBookTests();
 void registerMatchingEngineTests();
 void registerRiskEngineTests();
-void registerStrategyFrameworkTests();
 void registerPortfolioTests();
-void registerBlackScholesTests();
 void registerPerformanceMetricsTests();
 void registerMarketDataTests();
-void registerRiskEngineTests();
 void registerStrategyFrameworkTests();
+void registerBlackScholesTests();
+void registerBlackScholesTests();
+void registerBlackScholesTests();
+void registerBlackScholesTests();
+void registerBlackScholesTests();
+void registerBlackScholesTests();
+void registerBlackScholesTests();
 
 int main() {
-    // Register all test suites
     registerEventSystemTests();
     registerOrderBookTests();
     registerMatchingEngineTests();
     registerRiskEngineTests();
-    registerStrategyFrameworkTests();
     registerPortfolioTests();
-    registerBlackScholesTests();
     registerPerformanceMetricsTests();
     registerMarketDataTests();
-    registerRiskEngineTests();
     registerStrategyFrameworkTests();
+    registerBlackScholesTests();
+    registerBlackScholesTests();
+    registerBlackScholesTests();
+    registerBlackScholesTests();
+    registerBlackScholesTests();
+    registerBlackScholesTests();
+    registerBlackScholesTests();
 
     int passed = 0, failed = 0;
     std::vector<std::string> failures;
 
     for (auto& tc : g_tests) {
+        std::cout << "[RUN ] " << tc.name << '\n'; std::cout.flush();
         try {
             tc.fn();
-            std::cout << "[PASS] " << tc.name << '\n';
+            std::cout << "[PASS] " << tc.name << '\n'; std::cout.flush();
             ++passed;
         } catch (const std::exception& e) {
-            std::cout << "[FAIL] " << tc.name << " — " << e.what() << '\n';
+            std::cout << "[FAIL] " << tc.name << " — " << e.what() << '\n'; std::cout.flush();
             ++failed;
             failures.push_back(tc.name);
         } catch (...) {

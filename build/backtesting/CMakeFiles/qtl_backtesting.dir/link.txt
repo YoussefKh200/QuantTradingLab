@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libqtl_backtesting.a CMakeFiles/qtl_backtesting.dir/engine/BacktestEngine.cpp.o CMakeFiles/qtl_backtesting.dir/engine/ReportGenerator.cpp.o CMakeFiles/qtl_backtesting.dir/simulator/MarketSimulator.cpp.o CMakeFiles/qtl_backtesting.dir/replay/TickReplayer.cpp.o
-/usr/bin/ranlib ../lib/libqtl_backtesting.a
