@@ -30,12 +30,19 @@ void registerPerformanceMetricsTests();
 void registerMarketDataTests();
 void registerStrategyFrameworkTests();
 void registerBlackScholesTests();
+void registerDealerPositioningTests();
 void registerBlackScholesTests();
+void registerDealerPositioningTests();
 void registerBlackScholesTests();
+void registerDealerPositioningTests();
 void registerBlackScholesTests();
+void registerDealerPositioningTests();
 void registerBlackScholesTests();
+void registerDealerPositioningTests();
 void registerBlackScholesTests();
+void registerDealerPositioningTests();
 void registerBlackScholesTests();
+void registerDealerPositioningTests();
 
 int main() {
     registerEventSystemTests();
@@ -47,12 +54,19 @@ int main() {
     registerMarketDataTests();
     registerStrategyFrameworkTests();
     registerBlackScholesTests();
+    registerDealerPositioningTests();
     registerBlackScholesTests();
+    registerDealerPositioningTests();
     registerBlackScholesTests();
+    registerDealerPositioningTests();
     registerBlackScholesTests();
+    registerDealerPositioningTests();
     registerBlackScholesTests();
+    registerDealerPositioningTests();
     registerBlackScholesTests();
+    registerDealerPositioningTests();
     registerBlackScholesTests();
+    registerDealerPositioningTests();
 
     int passed = 0, failed = 0;
     std::vector<std::string> failures;

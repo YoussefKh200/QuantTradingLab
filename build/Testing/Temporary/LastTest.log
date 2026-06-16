@@ -1,0 +1,1588 @@
+Start testing: Jun 13 21:09 WAT
+----------------------------------------------------------
+1/1 Testing: QuantTradingLabTests
+1/1 Test: QuantTradingLabTests
+Command: "/mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase10/QuantTradingLab/build/bin/qtl_tests"
+Directory: /mnt/c/Users/youss/OneDrive/Documents/QuantTradingLab_Phase10/QuantTradingLab/build/tests
+"QuantTradingLabTests" start time: Jun 13 21:09 WAT
+Output:
+----------------------------------------------------------
+[RUN ] EventSystem/construction
+[PASS] EventSystem/construction
+[RUN ] EventSystem/EventQueue_basic
+[PASS] EventSystem/EventQueue_basic
+[RUN ] EventSystem/EventQueue_multithreaded
+[PASS] EventSystem/EventQueue_multithreaded
+[RUN ] EventSystem/EventQueue_stop
+[PASS] EventSystem/EventQueue_stop
+[RUN ] EventSystem/Dispatcher_typed
+[PASS] EventSystem/Dispatcher_typed
+[RUN ] EventSystem/Dispatcher_raw
+[PASS] EventSystem/Dispatcher_raw
+[RUN ] EventSystem/Dispatcher_drain
+[PASS] EventSystem/Dispatcher_drain
+[RUN ] EventSystem/Dispatcher_exception
+[PASS] EventSystem/Dispatcher_exception
+[RUN ] EventSystem/EventLoop_drain
+[PASS] EventSystem/EventLoop_drain
+[RUN ] EventSystem/EventLoop_step
+[PASS] EventSystem/EventLoop_step
+[RUN ] EventSystem/EventLoop_run
+[21:09:33.515] ERROR [EventLoop] Handler threw: loop isolation test
+[PASS] EventSystem/EventLoop_run
+[RUN ] EventSystem/EventLoop_stats
+[PASS] EventSystem/EventLoop_stats
+[RUN ] EventSystem/SPSC_basic
+[PASS] EventSystem/SPSC_basic
+[RUN ] EventSystem/SPSC_fill_drain
+[PASS] EventSystem/SPSC_fill_drain
+[RUN ] EventSystem/SPSC_throughput_1M
+[PASS] EventSystem/SPSC_throughput_1M
+[RUN ] EventSystem/EventPool_basic
+[PASS] EventSystem/EventPool_basic
+[RUN ] EventSystem/EventPool_exhaustion
+[PASS] EventSystem/EventPool_exhaustion
+[RUN ] EventSystem/Timestamp_ordering
+[PASS] EventSystem/Timestamp_ordering
+[RUN ] OrderBook/empty_state
+[PASS] OrderBook/empty_state
+[RUN ] OrderBook/add_resting_orders
+[PASS] OrderBook/add_resting_orders
+[RUN ] OrderBook/fifo_priority
+[PASS] OrderBook/fifo_priority
+[RUN ] OrderBook/full_fill_limit_cross
+[PASS] OrderBook/full_fill_limit_cross
+[RUN ] OrderBook/partial_fill_maker
+[PASS] OrderBook/partial_fill_maker
+[RUN ] OrderBook/partial_fill_taker
+[PASS] OrderBook/partial_fill_taker
+[RUN ] OrderBook/market_order_sweeps_levels
+[PASS] OrderBook/market_order_sweeps_levels
+[RUN ] OrderBook/cancel_order
+[PASS] OrderBook/cancel_order
+[RUN ] OrderBook/modify_price_loses_priority
+[PASS] OrderBook/modify_price_loses_priority
+[RUN ] OrderBook/modify_qty_preserves_priority
+[PASS] OrderBook/modify_qty_preserves_priority
+[RUN ] OrderBook/ioc_order
+[PASS] OrderBook/ioc_order
+[RUN ] OrderBook/fok_success
+[PASS] OrderBook/fok_success
+[RUN ] OrderBook/fok_reject
+[PASS] OrderBook/fok_reject
+[RUN ] OrderBook/duplicate_order_id
+[PASS] OrderBook/duplicate_order_id
+[RUN ] OrderBook/best_prices
+[PASS] OrderBook/best_prices
+[RUN ] OrderBook/trade_report_fields
+[PASS] OrderBook/trade_report_fields
+[RUN ] OrderBook/multi_level_sweep
+[PASS] OrderBook/multi_level_sweep
+[RUN ] OrderBook/printbook_output
+
++----------------------------------------------------------+
+|   BOOK: AAPL                                           |
++----------+----------+----------+------------------------+
+| SIDE     |     QTY  |    PRICE | DEPTH                  |
++----------+----------+----------+------------------------+
+| ASK      |300       |182.5200  | ||||||||||||||||||     |
+| ASK      |100       |182.5100  | ||||||                 |
++----------+----------+----------+------------------------+
+|          |          | mid 182.5000 |                        |
++----------+----------+----------+------------------------+
+| BID      |200       |182.4900  | ||||||||||||           |
+| BID      |400       |182.4800  | |||||||||||||||||||||||||
++----------+----------+----------+------------------------+
+| Orders: 4      Trades: 0      Spread: 0.0200      |
++----------------------------------------------------------+
+[PASS] OrderBook/printbook_output
+[RUN ] OrderBook/snapshot_depth
+[PASS] OrderBook/snapshot_depth
+[RUN ] OrderBook/large_scale_10k
+[PASS] OrderBook/large_scale_10k
+[RUN ] MatchingEngine/symbol_registration
+[PASS] MatchingEngine/symbol_registration
+[RUN ] MatchingEngine/unknown_symbol_rejected
+[PASS] MatchingEngine/unknown_symbol_rejected
+[RUN ] MatchingEngine/new_ack_generated
+[PASS] MatchingEngine/new_ack_generated
+[RUN ] MatchingEngine/full_fill_both_reports
+[PASS] MatchingEngine/full_fill_both_reports
+[RUN ] MatchingEngine/partial_fill_taker
+[PASS] MatchingEngine/partial_fill_taker
+[RUN ] MatchingEngine/partial_fill_maker
+[PASS] MatchingEngine/partial_fill_maker
+[RUN ] MatchingEngine/market_order_sweep
+[PASS] MatchingEngine/market_order_sweep
+[RUN ] MatchingEngine/cancel_order
+[PASS] MatchingEngine/cancel_order
+[RUN ] MatchingEngine/cancel_unknown
+[PASS] MatchingEngine/cancel_unknown
+[RUN ] MatchingEngine/modify_order
+[PASS] MatchingEngine/modify_order
+[RUN ] MatchingEngine/ioc_order
+[PASS] MatchingEngine/ioc_order
+[RUN ] MatchingEngine/fok_success
+[PASS] MatchingEngine/fok_success
+[RUN ] MatchingEngine/fok_reject
+[PASS] MatchingEngine/fok_reject
+[RUN ] MatchingEngine/invalid_qty_rejected
+[PASS] MatchingEngine/invalid_qty_rejected
+[RUN ] MatchingEngine/invalid_price_rejected
+[PASS] MatchingEngine/invalid_price_rejected
+[RUN ] MatchingEngine/commission_calculation
+[PASS] MatchingEngine/commission_calculation
+[RUN ] MatchingEngine/vwap_across_fills
+[PASS] MatchingEngine/vwap_across_fills
+[RUN ] MatchingEngine/exec_report_fields
+[PASS] MatchingEngine/exec_report_fields
+[RUN ] MatchingEngine/engine_stats
+[PASS] MatchingEngine/engine_stats
+[RUN ] MatchingEngine/fill_event_on_eventloop
+[PASS] MatchingEngine/fill_event_on_eventloop
+[RUN ] MatchingEngine/print_all_books
+[PASS] MatchingEngine/print_all_books
+[RUN ] MatchingEngine/multi_symbol_isolation
+[PASS] MatchingEngine/multi_symbol_isolation
+[RUN ] KillSwitch/default_not_halted
+[PASS] KillSwitch/default_not_halted
+[RUN ] KillSwitch/trigger_halts
+[PASS] KillSwitch/trigger_halts
+[RUN ] KillSwitch/first_trigger_wins
+[PASS] KillSwitch/first_trigger_wins
+[RUN ] KillSwitch/callback_fires
+[PASS] KillSwitch/callback_fires
+[RUN ] KillSwitch/multiple_callbacks
+[PASS] KillSwitch/multiple_callbacks
+[RUN ] KillSwitch/reset_wrong_token
+[PASS] KillSwitch/reset_wrong_token
+[RUN ] KillSwitch/reset_correct_token
+[PASS] KillSwitch/reset_correct_token
+[RUN ] KillSwitch/concurrent_triggers
+[PASS] KillSwitch/concurrent_triggers
+[RUN ] Exposure/buy_increases_long
+[PASS] Exposure/buy_increases_long
+[RUN ] Exposure/sell_increases_short
+[PASS] Exposure/sell_increases_short
+[RUN ] Exposure/roundtrip_flat
+[PASS] Exposure/roundtrip_flat
+[RUN ] Exposure/mark_to_market
+[PASS] Exposure/mark_to_market
+[RUN ] Exposure/portfolio_aggregation
+[PASS] Exposure/portfolio_aggregation
+[RUN ] Exposure/multi_symbol_isolation
+[PASS] Exposure/multi_symbol_isolation
+[RUN ] Exposure/reset
+[PASS] Exposure/reset
+[RUN ] RiskLimits/defaults_sane
+[PASS] RiskLimits/defaults_sane
+[RUN ] RiskLimits/symbol_fallback
+[PASS] RiskLimits/symbol_fallback
+[RUN ] RiskLimits/session_breach_detection
+[PASS] RiskLimits/session_breach_detection
+[RUN ] RiskEngine/order_approved
+[PASS] RiskEngine/order_approved
+[RUN ] RiskEngine/kill_switch_rejects
+[PASS] RiskEngine/kill_switch_rejects
+[RUN ] RiskEngine/order_qty_too_large
+[PASS] RiskEngine/order_qty_too_large
+[RUN ] RiskEngine/order_notional_too_large
+[PASS] RiskEngine/order_notional_too_large
+[RUN ] RiskEngine/position_limit_breach
+[PASS] RiskEngine/position_limit_breach
+[RUN ] RiskEngine/short_selling_disabled
+[PASS] RiskEngine/short_selling_disabled
+[RUN ] RiskEngine/symbol_trading_disabled
+[21:09:33.816] WARN  [RiskEngine] [WARNING] onFill: Concentration 100.000000% in AAPL (value=1 limit=0.3)
+[PASS] RiskEngine/symbol_trading_disabled
+[RUN ] RiskEngine/gross_exposure_limit
+[PASS] RiskEngine/gross_exposure_limit
+[21:09:33.816] WARN  [RiskEngine] [BREACH] onFill: Daily loss limit breached (value=-91250 limit=-50000)
+[RUN ] RiskEngine/fill_accumulates_pnl
+[PASS] RiskEngine/fill_accumulates_pnl
+[21:09:33.816] WARN  [RiskEngine] [WARNING] onFill: Concentration 100.000000% in AAPL (value=1 limit=0.3)
+[RUN ] RiskEngine/daily_loss_triggers_kill
+[PASS] RiskEngine/daily_loss_triggers_kill
+[21:09:33.816] WARN  [RiskEngine] [BREACH] onFill: Daily loss limit breached (value=-20005 limit=-1000)
+[RUN ] RiskEngine/soft_loss_warning
+[PASS] RiskEngine/soft_loss_warning
+[21:09:33.816] WARN  [RiskEngine] [WARNING] onFill: Concentration 100.000000% in AAPL (value=1 limit=0.3)
+[21:09:33.816] WARN  [RiskEngine] [WARNING] onFill: Daily loss warning: $-1850.000000 (value=-1850 limit=-1000)
+[RUN ] RiskEngine/drawdown_triggers_kill
+[PASS] RiskEngine/drawdown_triggers_kill
+[RUN ] RiskEngine/reset_daily_pnl
+[PASS] RiskEngine/reset_daily_pnl
+[21:09:33.816] WARN  [RiskEngine] [BREACH] onMark: Max drawdown breached (value=-0.06 limit=-0.05)
+[21:09:33.816] WARN  [RiskEngine] [WARNING] onFill: Concentration 100.000000% in AAPL (value=1 limit=0.3)
+[RUN ] RiskEngine/manual_halt
+[PASS] RiskEngine/manual_halt
+[RUN ] registerPortfolioTests/placeholder
+[PASS] registerPortfolioTests/placeholder
+[RUN ] Metrics/equity_returns_roundtrip
+[PASS] Metrics/equity_returns_roundtrip
+[RUN ] Metrics/cagr_known_value
+[PASS] Metrics/cagr_known_value
+[RUN ] Metrics/sharpe_positive
+[PASS] Metrics/sharpe_positive
+[RUN ] Metrics/sharpe_zero_vol
+[PASS] Metrics/sharpe_zero_vol
+[RUN ] Metrics/sortino_vs_sharpe
+[PASS] Metrics/sortino_vs_sharpe
+[RUN ] Metrics/max_drawdown_known
+[PASS] Metrics/max_drawdown_known
+[RUN ] Metrics/max_drawdown_no_recovery
+[PASS] Metrics/max_drawdown_no_recovery
+[RUN ] Metrics/max_drawdown_recovery
+[PASS] Metrics/max_drawdown_recovery
+[RUN ] Metrics/calmar_ratio
+[PASS] Metrics/calmar_ratio
+[RUN ] Metrics/win_rate
+[PASS] Metrics/win_rate
+[RUN ] Metrics/expectancy
+[PASS] Metrics/expectancy
+[RUN ] Metrics/profit_factor
+[PASS] Metrics/profit_factor
+[RUN ] Metrics/avg_win_loss
+[PASS] Metrics/avg_win_loss
+[RUN ] Metrics/annualised_vol
+[PASS] Metrics/annualised_vol
+[RUN ] Metrics/var_parametric
+[PASS] Metrics/var_parametric
+[RUN ] Metrics/var_historical
+[PASS] Metrics/var_historical
+[RUN ] Metrics/cvar
+[PASS] Metrics/cvar
+[RUN ] Metrics/omega_ratio
+[PASS] Metrics/omega_ratio
+[RUN ] Metrics/beta_alpha
+[PASS] Metrics/beta_alpha
+[RUN ] Metrics/compute_summary_full
+[PASS] Metrics/compute_summary_full
+[RUN ] Metrics/summary_tostring
+[PASS] Metrics/summary_tostring
+[RUN ] Simulator/fixed_slippage
+[PASS] Simulator/fixed_slippage
+[RUN ] Simulator/percent_slippage
+[PASS] Simulator/percent_slippage
+[RUN ] Simulator/volume_slippage_scales
+[PASS] Simulator/volume_slippage_scales
+[RUN ] Simulator/limit_not_crossed
+[PASS] Simulator/limit_not_crossed
+[RUN ] Simulator/market_always_fills
+[PASS] Simulator/market_always_fills
+[RUN ] Backtest/engine_run
+[21:09:33.817] INFO  [TickReplayer] Loaded '/tmp/qtl_bt_test.csv' type=Quote
+[21:09:33.817] INFO  [BacktestEngine] Starting backtest: strategy=SimpleMomentum capital=100000
+[21:09:33.818] INFO  [TickReplayer] Replay complete: 200 ticks in 0.00s  (868631.5x speed)
+[PASS] Backtest/engine_run
+[21:09:33.818] INFO  [BacktestEngine] Backtest complete: totalReturn=0.00% sharpe=0.00 maxDD=0.00%
+[RUN ] Backtest/equity_curve_populated
+[21:09:33.819] INFO  [TickReplayer] Loaded '/tmp/qtl_bt_eq.csv' type=Quote
+[21:09:33.819] INFO  [BacktestEngine] Starting backtest: strategy=SimpleMomentum capital=50000
+[21:09:33.819] INFO  [TickReplayer] Replay complete: 100 ticks in 0.00s  (955801.4x speed)
+[PASS] Backtest/equity_curve_populated
+[RUN ] Backtest/html_report_generated
+[21:09:33.819] INFO  [BacktestEngine] Backtest complete: totalReturn=0.00% sharpe=0.00 maxDD=0.00%
+[21:09:33.819] INFO  [TickReplayer] Loaded '/tmp/qtl_bt_rpt.csv' type=Quote
+[21:09:33.819] INFO  [BacktestEngine] Starting backtest: strategy=SimpleMomentum capital=10000
+[21:09:33.819] INFO  [TickReplayer] Replay complete: 50 ticks in 0.00s  (526785.4x speed)
+[21:09:33.819] INFO  [BacktestEngine] Backtest complete: totalReturn=0.00% sharpe=0.00 maxDD=0.00%
+[21:09:33.819] INFO  [BacktestEngine] Report written to '/tmp/qtl_report.html'
+[PASS] Backtest/html_report_generated
+[RUN ] Backtest/summary_metrics_after_run
+[21:09:33.819] INFO  [TickReplayer] Loaded '/tmp/qtl_bt_summ.csv' type=Quote
+[21:09:33.819] INFO  [BacktestEngine] Starting backtest: strategy=SimpleMomentum capital=100000
+[21:09:33.820] INFO  [TickReplayer] Replay complete: 252 ticks in 0.00s  (958498.2x speed)
+[PASS] Backtest/summary_metrics_after_run
+[21:09:33.820] INFO  [BacktestEngine] Backtest complete: totalReturn=0.00% sharpe=0.00 maxDD=0.00%
+[RUN ] MarketData/parse_trade_tick
+[PASS] MarketData/parse_trade_tick
+[RUN ] MarketData/parse_quote_tick
+[PASS] MarketData/parse_quote_tick
+[RUN ] MarketData/parse_book_update
+[PASS] MarketData/parse_book_update
+[RUN ] MarketData/header_detection
+[PASS] MarketData/header_detection
+[RUN ] MarketData/side_parsing
+[PASS] MarketData/side_parsing
+[RUN ] MarketData/action_parsing
+[PASS] MarketData/action_parsing
+[RUN ] MarketData/malformed_line_throws
+[PASS] MarketData/malformed_line_throws
+[RUN ] MarketData/anytick_union
+[PASS] MarketData/anytick_union
+[RUN ] MarketData/feed_trade_processing
+[PASS] MarketData/feed_trade_processing
+[RUN ] MarketData/feed_quote_and_event
+[PASS] MarketData/feed_quote_and_event
+[RUN ] MarketData/crossed_quote
+[PASS] MarketData/crossed_quote
+[RUN ] MarketData/bar_aggregation
+[PASS] MarketData/bar_aggregation
+[RUN ] MarketData/multi_symbol_isolation
+[PASS] MarketData/multi_symbol_isolation
+[RUN ] MarketData/feed_stats
+[PASS] MarketData/feed_stats
+[RUN ] MarketData/replayer_load_replay
+[21:09:33.827] INFO  [TickReplayer] Loaded '/tmp/qtl_test_trade1.csv' type=Trade
+[PASS] MarketData/replayer_load_replay
+[21:09:33.828] INFO  [TickReplayer] Replay complete: 1000 ticks in 0.00s  (863.0x speed)
+[RUN ] MarketData/replayer_pause_resume
+[21:09:33.829] INFO  [TickReplayer] Loaded '/tmp/qtl_test_trade_pr.csv' type=Trade
+[21:09:33.829] INFO  [TickReplayer] Paused at tick 499
+[21:09:33.884] INFO  [TickReplayer] Resumed
+[21:09:33.886] INFO  [TickReplayer] Replay complete: 2000 ticks in 0.06s  (34.8x speed)
+[PASS] MarketData/replayer_pause_resume
+[RUN ] MarketData/replayer_multi_file_merge
+[21:09:33.887] INFO  [TickReplayer] Loaded '/tmp/qtl_test_merge_aapl.csv' type=Trade
+[21:09:33.887] INFO  [TickReplayer] Loaded '/tmp/qtl_test_merge_msft.csv' type=Trade
+[PASS] MarketData/replayer_multi_file_merge
+[21:09:33.888] INFO  [TickReplayer] Replay complete: 1000 ticks in 0.00s  (1902.1x speed)
+[RUN ] MarketData/replayer_drives_simclock
+[21:09:33.888] INFO  [TickReplayer] Loaded '/tmp/qtl_test_clock.csv' type=Trade
+[PASS] MarketData/replayer_drives_simclock
+[21:09:33.889] INFO  [TickReplayer] Replay complete: 100 ticks in 0.00s  (1095.1x speed)
+[RUN ] MarketData/replayer_tick_callback
+[21:09:33.889] INFO  [TickReplayer] Loaded '/tmp/qtl_test_callback.csv' type=Quote
+[PASS] MarketData/replayer_tick_callback
+[21:09:33.889] INFO  [TickReplayer] Replay complete: 200 ticks in 0.00s  (542.9x speed)
+[RUN ] MarketData/replayer_drives_eventloop
+[21:09:33.889] INFO  [TickReplayer] Loaded '/tmp/qtl_test_evloop.csv' type=Quote
+[21:09:33.889] INFO  [TickReplayer] Replay complete: 50 ticks in 0.00s  (186.0x speed)
+[PASS] MarketData/replayer_drives_eventloop
+[RUN ] MarketData/replayer_stats
+[21:09:33.890] INFO  [TickReplayer] Loaded '/tmp/qtl_test_stats.csv' type=Trade
+[PASS] MarketData/replayer_stats
+[RUN ] MarketData/replayer_malformed_skipped
+[21:09:33.890] INFO  [TickReplayer] Replay complete: 300 ticks in 0.00s  (1026.2x speed)
+[PASS] MarketData/replayer_malformed_skipped
+[21:09:33.890] INFO  [TickReplayer] Loaded '/tmp/qtl_test_malformed.csv' type=Trade
+[21:09:33.890] INFO  [TickReplayer] Replay complete: 3 ticks in 0.00s  (0.0x speed)
+[RUN ] StrategyCtx/order_routing
+[PASS] StrategyCtx/order_routing
+[RUN ] StrategyCtx/position_query
+[PASS] StrategyCtx/position_query
+[RUN ] StrategyCtx/order_builders
+[PASS] StrategyCtx/order_builders
+[RUN ] StrategyCtx/order_id_monotonic
+[PASS] StrategyCtx/order_id_monotonic
+[RUN ] StrategyCtx/unbound_safe_defaults
+[PASS] StrategyCtx/unbound_safe_defaults
+[RUN ] StrategyBase/onstart_running
+[PASS] StrategyBase/onstart_running
+[RUN ] StrategyBase/onstop_stopped
+[PASS] StrategyBase/onstop_stopped
+[RUN ] StrategyBase/stats_counters
+[PASS] StrategyBase/stats_counters
+[RUN ] StrategyBase/record_fill_pnl
+[PASS] StrategyBase/record_fill_pnl
+[RUN ] StrategyBase/risk_kill_stops
+[PASS] StrategyBase/risk_kill_stops
+[RUN ] MarketMaking/no_quotes_zero_spread
+[PASS] MarketMaking/no_quotes_zero_spread
+[RUN ] MarketMaking/quotes_posted_valid
+[21:09:33.890] INFO  [TestStrat] Strategy started (symbol=AAPL)
+[PASS] MarketMaking/quotes_posted_valid
+[RUN ] MarketMaking/both_sides_posted
+[21:09:33.890] INFO  [TestStrat] Strategy started (symbol=AAPL)
+[PASS] MarketMaking/both_sides_posted
+[21:09:33.890] INFO  [TestStrat] Strategy stopped. fills=0 realisedPnl=0.00
+[RUN ] MarketMaking/requote_on_mid_move
+[21:09:33.890] INFO  [TestStrat] Strategy started (symbol=AAPL)
+[21:09:33.890] INFO  [TestStrat] Strategy started (symbol=AAPL)
+[PASS] MarketMaking/requote_on_mid_move
+[RUN ] MarketMaking/cancels_before_requote
+[21:09:33.891] INFO  [TestStrat] Strategy started (symbol=AAPL)
+[21:09:33.891] INFO  [MarketMaking] Strategy started (symbol=AAPL)
+[PASS] MarketMaking/cancels_before_requote
+[RUN ] MarketMaking/inventory_skew
+[21:09:33.891] INFO  [MarketMaking] Strategy started (symbol=AAPL)
+[21:09:33.891] INFO  [MarketMaking] Strategy started (symbol=AAPL)
+[PASS] MarketMaking/inventory_skew
+[21:09:33.891] INFO  [MarketMaking] Strategy started (symbol=AAPL)
+[RUN ] MarketMaking/max_inventory_blocks
+[21:09:33.891] INFO  [MarketMaking] Strategy started (symbol=AAPL)
+[21:09:33.891] INFO  [MarketMaking] Strategy started (symbol=AAPL)
+[PASS] MarketMaking/max_inventory_blocks
+[RUN ] MarketMaking/fill_clears_reposts
+[21:09:33.891] INFO  [MarketMaking] Strategy stopped. fills=0 realisedPnl=0.00
+[21:09:33.891] INFO  [MarketMaking] Strategy started (symbol=AAPL)
+[PASS] MarketMaking/fill_clears_reposts
+[RUN ] MeanReversion/no_signal_early
+[21:09:33.891] INFO  [MarketMaking] Strategy started (symbol=AAPL)
+[21:09:33.891] INFO  [MarketMaking] Strategy started (symbol=AAPL)
+[PASS] MeanReversion/no_signal_early
+[RUN ] MeanReversion/vwap_computed
+[21:09:33.891] INFO  [MeanReversion] Strategy started (symbol=AAPL)
+[PASS] MeanReversion/vwap_computed
+[RUN ] MeanReversion/buy_signal_below_vwap
+[PASS] MeanReversion/buy_signal_below_vwap
+[RUN ] MeanReversion/sell_signal_above
+[21:09:33.891] INFO  [MeanReversion] Strategy started (symbol=AAPL)
+[PASS] MeanReversion/sell_signal_above
+[RUN ] MeanReversion/exit_signal_decay
+[21:09:33.891] INFO  [MeanReversion] Strategy started (symbol=AAPL)
+[21:09:33.891] INFO  [MeanReversion] Strategy started (symbol=AAPL)
+[PASS] MeanReversion/exit_signal_decay
+[21:09:33.891] INFO  [MeanReversion] Strategy started (symbol=AAPL)
+[RUN ] MeanReversion/no_trade_low_std
+[PASS] MeanReversion/no_trade_low_std
+[RUN ] Momentum/ema_initialised
+[21:09:33.891] INFO  [MeanReversion] Strategy started (symbol=AAPL)
+[PASS] Momentum/ema_initialised
+[RUN ] Momentum/fast_changes_faster
+[PASS] Momentum/fast_changes_faster
+[RUN ] Momentum/bullish_crossover_buys
+[PASS] Momentum/bullish_crossover_buys
+[21:09:33.891] INFO  [Momentum] Strategy started (symbol=AAPL)
+[RUN ] Momentum/bearish_crossover_sells
+[21:09:33.891] INFO  [Momentum] Strategy started (symbol=AAPL)
+[21:09:33.891] INFO  [Momentum] Strategy started (symbol=AAPL)
+[PASS] Momentum/bearish_crossover_sells
+[21:09:33.891] INFO  [Momentum] Strategy started (symbol=AAPL)
+[RUN ] Momentum/atr_stop_triggers
+[PASS] Momentum/atr_stop_triggers
+[RUN ] Momentum/maxhold_exits
+[PASS] Momentum/maxhold_exits
+[21:09:33.891] INFO  [Momentum] Strategy started (symbol=AAPL)
+[RUN ] OrderFlow/no_signal_early
+[21:09:33.891] INFO  [Momentum] Strategy started (symbol=AAPL)
+[PASS] OrderFlow/no_signal_early
+[21:09:33.891] INFO  [OrderFlow] Strategy started (symbol=AAPL)
+[RUN ] OrderFlow/buy_positive_flow
+[PASS] OrderFlow/buy_positive_flow
+[RUN ] OrderFlow/sell_negative_flow
+[21:09:33.891] INFO  [OrderFlow] Strategy started (symbol=AAPL)
+[PASS] OrderFlow/sell_negative_flow
+[21:09:33.891] INFO  [OrderFlow] Strategy started (symbol=AAPL)
+[RUN ] OrderFlow/exit_signal_decay
+[PASS] OrderFlow/exit_signal_decay
+[21:09:33.891] INFO  [OrderFlow] Strategy started (symbol=AAPL)
+[RUN ] OrderFlow/maxhold_exits
+[PASS] OrderFlow/maxhold_exits
+[RUN ] BS/atm_call_price
+[21:09:33.891] INFO  [OrderFlow] Strategy started (symbol=AAPL)
+[PASS] BS/atm_call_price
+[RUN ] BS/atm_put_price
+[PASS] BS/atm_put_price
+[RUN ] BS/put_call_parity
+[PASS] BS/put_call_parity
+[RUN ] BS/deep_itm_call
+[PASS] BS/deep_itm_call
+[RUN ] BS/deep_otm_call
+[PASS] BS/deep_otm_call
+[RUN ] BS/zero_expiry
+[PASS] BS/zero_expiry
+[RUN ] BS/zero_vol
+[PASS] BS/zero_vol
+[RUN ] BS/price_increases_with_vol
+[PASS] BS/price_increases_with_vol
+[RUN ] Greeks/delta_atm_call
+[PASS] Greeks/delta_atm_call
+[RUN ] Greeks/delta_itm_near_one
+[PASS] Greeks/delta_itm_near_one
+[RUN ] Greeks/delta_otm_near_zero
+[PASS] Greeks/delta_otm_near_zero
+[RUN ] Greeks/delta_put_call_parity
+[PASS] Greeks/delta_put_call_parity
+[RUN ] Greeks/gamma_atm_maximum
+[PASS] Greeks/gamma_atm_maximum
+[RUN ] Greeks/theta_long_negative
+[PASS] Greeks/theta_long_negative
+[RUN ] Greeks/vanna_sign
+[PASS] Greeks/vanna_sign
+[RUN ] Greeks/charm_non_zero
+[PASS] Greeks/charm_non_zero
+[RUN ] Greeks/vomma_positive_otm
+[PASS] Greeks/vomma_positive_otm
+[RUN ] Greeks/vega_atm_maximum
+[PASS] Greeks/vega_atm_maximum
+[RUN ] Greeks/rho_call_positive
+[PASS] Greeks/rho_call_positive
+[RUN ] Greeks/rho_put_negative
+[PASS] Greeks/rho_put_negative
+[RUN ] IVSolver/call_25pct
+[PASS] IVSolver/call_25pct
+[RUN ] IVSolver/put_30pct
+[PASS] IVSolver/put_30pct
+[RUN ] IVSolver/atm_fast_converge
+[PASS] IVSolver/atm_fast_converge
+[RUN ] IVSolver/zero_price
+[PASS] IVSolver/zero_price
+[RUN ] IVSolver/impossible_price
+[PASS] IVSolver/impossible_price
+[RUN ] IVSolver/roundtrip
+[PASS] IVSolver/roundtrip
+[RUN ] VolSurface/stores_points
+[PASS] VolSurface/stores_points
+[RUN ] VolSurface/interpolation
+[PASS] VolSurface/interpolation
+[RUN ] VolSurface/term_structure
+[PASS] VolSurface/term_structure
+[RUN ] VolSurface/smile_otm_higher
+[PASS] VolSurface/smile_otm_higher
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/call_put_same_strike
+[PASS] GEX/call_put_same_strike
+[RUN ] GEX/gamma_wall_strike
+[PASS] GEX/gamma_wall_strike
+[RUN ] GEX/put_wall_strike
+[PASS] GEX/put_wall_strike
+[RUN ] GEX/zero_gamma_between
+[PASS] GEX/zero_gamma_between
+[RUN ] GEX/max_pain_strike
+[PASS] GEX/max_pain_strike
+[RUN ] Dealer/flow_finite
+[PASS] Dealer/flow_finite
+[RUN ] Dealer/significant_levels
+[PASS] Dealer/significant_levels
+[RUN ] Dealer/summary_non_empty
+[PASS] Dealer/summary_non_empty
+[RUN ] DealerPos/synthetic_chain_count
+[PASS] DealerPos/synthetic_chain_count
+[RUN ] DealerPos/synthetic_has_both_types
+[PASS] DealerPos/synthetic_has_both_types
+[RUN ] DealerPos/synthetic_vol_smile
+[PASS] DealerPos/synthetic_vol_smile
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/symmetric_near_zero
+[PASS] GEX/symmetric_near_zero
+[RUN ] GEX/gamma_wall_correctness
+[PASS] GEX/gamma_wall_correctness
+[RUN ] GEX/call_wall_highest_oi
+[PASS] GEX/call_wall_highest_oi
+[RUN ] GEX/put_wall_highest_oi
+[PASS] GEX/put_wall_highest_oi
+[RUN ] GEX/zero_gamma_between_strikes
+[PASS] GEX/zero_gamma_between_strikes
+[RUN ] GEX/max_pain_symmetric
+[PASS] GEX/max_pain_symmetric
+[RUN ] GEX/dex_positive_call_heavy
+[PASS] GEX/dex_positive_call_heavy
+[RUN ] GEX/vex_positive
+[PASS] GEX/vex_positive
+[RUN ] GEX/vannex_sign
+[PASS] GEX/vannex_sign
+[RUN ] GEX/charmex_near_expiry
+[PASS] GEX/charmex_near_expiry
+[RUN ] GEXProfile/positive_gamma
+[PASS] GEXProfile/positive_gamma
+[RUN ] GEXProfile/negative_gamma
+[PASS] GEXProfile/negative_gamma
+[RUN ] GEXProfile/strikes_sorted
+[PASS] GEXProfile/strikes_sorted
+[RUN ] GEXProfile/gex_per_strike_count
+[PASS] GEXProfile/gex_per_strike_count
+[RUN ] GEXProfile/summary_has_levels
+[PASS] GEXProfile/summary_has_levels
+[RUN ] GEXChart/chart_gex_non_empty
+[PASS] GEXChart/chart_gex_non_empty
+[RUN ] GEXChart/chart_has_spot_marker
+[PASS] GEXChart/chart_has_spot_marker
+[RUN ] GEXChart/chart_vannex_non_empty
+[PASS] GEXChart/chart_vannex_non_empty
+[RUN ] DealerAnalyzer/returns_valid_profile
+[PASS] DealerAnalyzer/returns_valid_profile
+[RUN ] DealerAnalyzer/regime_positive
+[PASS] DealerAnalyzer/regime_positive
+[RUN ] DealerAnalyzer/regime_negative
+[PASS] DealerAnalyzer/regime_negative
+[RUN ] DealerAnalyzer/regime_neutral
+[PASS] DealerAnalyzer/regime_neutral
+[RUN ] DealerAnalyzer/flow_gamma_positive
+[PASS] DealerAnalyzer/flow_gamma_positive
+[RUN ] DealerAnalyzer/flow_charm_non_zero
+[PASS] DealerAnalyzer/flow_charm_non_zero
+[RUN ] DealerAnalyzer/flow_net_bias_finite
+[PASS] DealerAnalyzer/flow_net_bias_finite
+[RUN ] DealerAnalyzer/key_level_put_wall_below
+[PASS] DealerAnalyzer/key_level_put_wall_below
+[RUN ] DealerAnalyzer/significant_in_range
+[PASS] DealerAnalyzer/significant_in_range
+[RUN ] DealerAnalyzer/report_has_sections
+╔══════════════════════════════════════════════════════╗
+║     DEALER POSITIONING REPORT — SPX                  ║
+╠══════════════════════════════════════════════════════╣
+║  Spot Price    : $   4500.00                         ║
+║  Vol Regime    : NEUTRAL (Transiti...
+[PASS] DealerAnalyzer/report_has_sections
+[RUN ] MultiExpiry/totals_larger
+[PASS] MultiExpiry/totals_larger
+[RUN ] MultiExpiry/near_expiry_higher_gamma
+[PASS] MultiExpiry/near_expiry_higher_gamma
+[RUN ] MultiExpiry/vannex_aggregates
+[PASS] MultiExpiry/vannex_aggregates
+[RUN ] MultiExpiry/max_pain
+[PASS] MultiExpiry/max_pain
+[RUN ] BS/atm_call_price
+[PASS] BS/atm_call_price
+[RUN ] BS/atm_put_price
+[PASS] BS/atm_put_price
+[RUN ] BS/put_call_parity
+[PASS] BS/put_call_parity
+[RUN ] BS/deep_itm_call
+[PASS] BS/deep_itm_call
+[RUN ] BS/deep_otm_call
+[PASS] BS/deep_otm_call
+[RUN ] BS/zero_expiry
+[PASS] BS/zero_expiry
+[RUN ] BS/zero_vol
+[PASS] BS/zero_vol
+[RUN ] BS/price_increases_with_vol
+[PASS] BS/price_increases_with_vol
+[RUN ] Greeks/delta_atm_call
+[PASS] Greeks/delta_atm_call
+[RUN ] Greeks/delta_itm_near_one
+[PASS] Greeks/delta_itm_near_one
+[RUN ] Greeks/delta_otm_near_zero
+[PASS] Greeks/delta_otm_near_zero
+[RUN ] Greeks/delta_put_call_parity
+[PASS] Greeks/delta_put_call_parity
+[RUN ] Greeks/gamma_atm_maximum
+[PASS] Greeks/gamma_atm_maximum
+[RUN ] Greeks/theta_long_negative
+[PASS] Greeks/theta_long_negative
+[RUN ] Greeks/vanna_sign
+[PASS] Greeks/vanna_sign
+[RUN ] Greeks/charm_non_zero
+[PASS] Greeks/charm_non_zero
+[RUN ] Greeks/vomma_positive_otm
+[PASS] Greeks/vomma_positive_otm
+[RUN ] Greeks/vega_atm_maximum
+[PASS] Greeks/vega_atm_maximum
+[RUN ] Greeks/rho_call_positive
+[PASS] Greeks/rho_call_positive
+[RUN ] Greeks/rho_put_negative
+[PASS] Greeks/rho_put_negative
+[RUN ] IVSolver/call_25pct
+[PASS] IVSolver/call_25pct
+[RUN ] IVSolver/put_30pct
+[PASS] IVSolver/put_30pct
+[RUN ] IVSolver/atm_fast_converge
+[PASS] IVSolver/atm_fast_converge
+[RUN ] IVSolver/zero_price
+[PASS] IVSolver/zero_price
+[RUN ] IVSolver/impossible_price
+[PASS] IVSolver/impossible_price
+[RUN ] IVSolver/roundtrip
+[PASS] IVSolver/roundtrip
+[RUN ] VolSurface/stores_points
+[PASS] VolSurface/stores_points
+[RUN ] VolSurface/interpolation
+[PASS] VolSurface/interpolation
+[RUN ] VolSurface/term_structure
+[PASS] VolSurface/term_structure
+[RUN ] VolSurface/smile_otm_higher
+[PASS] VolSurface/smile_otm_higher
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/call_put_same_strike
+[PASS] GEX/call_put_same_strike
+[RUN ] GEX/gamma_wall_strike
+[PASS] GEX/gamma_wall_strike
+[RUN ] GEX/put_wall_strike
+[PASS] GEX/put_wall_strike
+[RUN ] GEX/zero_gamma_between
+[PASS] GEX/zero_gamma_between
+[RUN ] GEX/max_pain_strike
+[PASS] GEX/max_pain_strike
+[RUN ] Dealer/flow_finite
+[PASS] Dealer/flow_finite
+[RUN ] Dealer/significant_levels
+[PASS] Dealer/significant_levels
+[RUN ] Dealer/summary_non_empty
+[PASS] Dealer/summary_non_empty
+[RUN ] DealerPos/synthetic_chain_count
+[PASS] DealerPos/synthetic_chain_count
+[RUN ] DealerPos/synthetic_has_both_types
+[PASS] DealerPos/synthetic_has_both_types
+[RUN ] DealerPos/synthetic_vol_smile
+[PASS] DealerPos/synthetic_vol_smile
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/symmetric_near_zero
+[PASS] GEX/symmetric_near_zero
+[RUN ] GEX/gamma_wall_correctness
+[PASS] GEX/gamma_wall_correctness
+[RUN ] GEX/call_wall_highest_oi
+[PASS] GEX/call_wall_highest_oi
+[RUN ] GEX/put_wall_highest_oi
+[PASS] GEX/put_wall_highest_oi
+[RUN ] GEX/zero_gamma_between_strikes
+[PASS] GEX/zero_gamma_between_strikes
+[RUN ] GEX/max_pain_symmetric
+[PASS] GEX/max_pain_symmetric
+[RUN ] GEX/dex_positive_call_heavy
+[PASS] GEX/dex_positive_call_heavy
+[RUN ] GEX/vex_positive
+[PASS] GEX/vex_positive
+[RUN ] GEX/vannex_sign
+[PASS] GEX/vannex_sign
+[RUN ] GEX/charmex_near_expiry
+[PASS] GEX/charmex_near_expiry
+[RUN ] GEXProfile/positive_gamma
+[PASS] GEXProfile/positive_gamma
+[RUN ] GEXProfile/negative_gamma
+[PASS] GEXProfile/negative_gamma
+[RUN ] GEXProfile/strikes_sorted
+[PASS] GEXProfile/strikes_sorted
+[RUN ] GEXProfile/gex_per_strike_count
+[PASS] GEXProfile/gex_per_strike_count
+[RUN ] GEXProfile/summary_has_levels
+[PASS] GEXProfile/summary_has_levels
+[RUN ] GEXChart/chart_gex_non_empty
+[PASS] GEXChart/chart_gex_non_empty
+[RUN ] GEXChart/chart_has_spot_marker
+[PASS] GEXChart/chart_has_spot_marker
+[RUN ] GEXChart/chart_vannex_non_empty
+[PASS] GEXChart/chart_vannex_non_empty
+[RUN ] DealerAnalyzer/returns_valid_profile
+[PASS] DealerAnalyzer/returns_valid_profile
+[RUN ] DealerAnalyzer/regime_positive
+[PASS] DealerAnalyzer/regime_positive
+[RUN ] DealerAnalyzer/regime_negative
+[PASS] DealerAnalyzer/regime_negative
+[RUN ] DealerAnalyzer/regime_neutral
+[PASS] DealerAnalyzer/regime_neutral
+[RUN ] DealerAnalyzer/flow_gamma_positive
+[PASS] DealerAnalyzer/flow_gamma_positive
+[RUN ] DealerAnalyzer/flow_charm_non_zero
+[PASS] DealerAnalyzer/flow_charm_non_zero
+[RUN ] DealerAnalyzer/flow_net_bias_finite
+[PASS] DealerAnalyzer/flow_net_bias_finite
+[RUN ] DealerAnalyzer/key_level_put_wall_below
+[PASS] DealerAnalyzer/key_level_put_wall_below
+[RUN ] DealerAnalyzer/significant_in_range
+[PASS] DealerAnalyzer/significant_in_range
+[RUN ] DealerAnalyzer/report_has_sections
+╔══════════════════════════════════════════════════════╗
+║     DEALER POSITIONING REPORT — SPX                  ║
+╠══════════════════════════════════════════════════════╣
+║  Spot Price    : $   4500.00                         ║
+║  Vol Regime    : NEUTRAL (Transiti...
+[PASS] DealerAnalyzer/report_has_sections
+[RUN ] MultiExpiry/totals_larger
+[PASS] MultiExpiry/totals_larger
+[RUN ] MultiExpiry/near_expiry_higher_gamma
+[PASS] MultiExpiry/near_expiry_higher_gamma
+[RUN ] MultiExpiry/vannex_aggregates
+[PASS] MultiExpiry/vannex_aggregates
+[RUN ] MultiExpiry/max_pain
+[PASS] MultiExpiry/max_pain
+[RUN ] BS/atm_call_price
+[PASS] BS/atm_call_price
+[RUN ] BS/atm_put_price
+[PASS] BS/atm_put_price
+[RUN ] BS/put_call_parity
+[PASS] BS/put_call_parity
+[RUN ] BS/deep_itm_call
+[PASS] BS/deep_itm_call
+[RUN ] BS/deep_otm_call
+[PASS] BS/deep_otm_call
+[RUN ] BS/zero_expiry
+[PASS] BS/zero_expiry
+[RUN ] BS/zero_vol
+[PASS] BS/zero_vol
+[RUN ] BS/price_increases_with_vol
+[PASS] BS/price_increases_with_vol
+[RUN ] Greeks/delta_atm_call
+[PASS] Greeks/delta_atm_call
+[RUN ] Greeks/delta_itm_near_one
+[PASS] Greeks/delta_itm_near_one
+[RUN ] Greeks/delta_otm_near_zero
+[PASS] Greeks/delta_otm_near_zero
+[RUN ] Greeks/delta_put_call_parity
+[PASS] Greeks/delta_put_call_parity
+[RUN ] Greeks/gamma_atm_maximum
+[PASS] Greeks/gamma_atm_maximum
+[RUN ] Greeks/theta_long_negative
+[PASS] Greeks/theta_long_negative
+[RUN ] Greeks/vanna_sign
+[PASS] Greeks/vanna_sign
+[RUN ] Greeks/charm_non_zero
+[PASS] Greeks/charm_non_zero
+[RUN ] Greeks/vomma_positive_otm
+[PASS] Greeks/vomma_positive_otm
+[RUN ] Greeks/vega_atm_maximum
+[PASS] Greeks/vega_atm_maximum
+[RUN ] Greeks/rho_call_positive
+[PASS] Greeks/rho_call_positive
+[RUN ] Greeks/rho_put_negative
+[PASS] Greeks/rho_put_negative
+[RUN ] IVSolver/call_25pct
+[PASS] IVSolver/call_25pct
+[RUN ] IVSolver/put_30pct
+[PASS] IVSolver/put_30pct
+[RUN ] IVSolver/atm_fast_converge
+[PASS] IVSolver/atm_fast_converge
+[RUN ] IVSolver/zero_price
+[PASS] IVSolver/zero_price
+[RUN ] IVSolver/impossible_price
+[PASS] IVSolver/impossible_price
+[RUN ] IVSolver/roundtrip
+[PASS] IVSolver/roundtrip
+[RUN ] VolSurface/stores_points
+[PASS] VolSurface/stores_points
+[RUN ] VolSurface/interpolation
+[PASS] VolSurface/interpolation
+[RUN ] VolSurface/term_structure
+[PASS] VolSurface/term_structure
+[RUN ] VolSurface/smile_otm_higher
+[PASS] VolSurface/smile_otm_higher
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/call_put_same_strike
+[PASS] GEX/call_put_same_strike
+[RUN ] GEX/gamma_wall_strike
+[PASS] GEX/gamma_wall_strike
+[RUN ] GEX/put_wall_strike
+[PASS] GEX/put_wall_strike
+[RUN ] GEX/zero_gamma_between
+[PASS] GEX/zero_gamma_between
+[RUN ] GEX/max_pain_strike
+[PASS] GEX/max_pain_strike
+[RUN ] Dealer/flow_finite
+[PASS] Dealer/flow_finite
+[RUN ] Dealer/significant_levels
+[PASS] Dealer/significant_levels
+[RUN ] Dealer/summary_non_empty
+[PASS] Dealer/summary_non_empty
+[RUN ] DealerPos/synthetic_chain_count
+[PASS] DealerPos/synthetic_chain_count
+[RUN ] DealerPos/synthetic_has_both_types
+[PASS] DealerPos/synthetic_has_both_types
+[RUN ] DealerPos/synthetic_vol_smile
+[PASS] DealerPos/synthetic_vol_smile
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/symmetric_near_zero
+[PASS] GEX/symmetric_near_zero
+[RUN ] GEX/gamma_wall_correctness
+[PASS] GEX/gamma_wall_correctness
+[RUN ] GEX/call_wall_highest_oi
+[PASS] GEX/call_wall_highest_oi
+[RUN ] GEX/put_wall_highest_oi
+[PASS] GEX/put_wall_highest_oi
+[RUN ] GEX/zero_gamma_between_strikes
+[PASS] GEX/zero_gamma_between_strikes
+[RUN ] GEX/max_pain_symmetric
+[PASS] GEX/max_pain_symmetric
+[RUN ] GEX/dex_positive_call_heavy
+[PASS] GEX/dex_positive_call_heavy
+[RUN ] GEX/vex_positive
+[PASS] GEX/vex_positive
+[RUN ] GEX/vannex_sign
+[PASS] GEX/vannex_sign
+[RUN ] GEX/charmex_near_expiry
+[PASS] GEX/charmex_near_expiry
+[RUN ] GEXProfile/positive_gamma
+[PASS] GEXProfile/positive_gamma
+[RUN ] GEXProfile/negative_gamma
+[PASS] GEXProfile/negative_gamma
+[RUN ] GEXProfile/strikes_sorted
+[PASS] GEXProfile/strikes_sorted
+[RUN ] GEXProfile/gex_per_strike_count
+[PASS] GEXProfile/gex_per_strike_count
+[RUN ] GEXProfile/summary_has_levels
+[PASS] GEXProfile/summary_has_levels
+[RUN ] GEXChart/chart_gex_non_empty
+[PASS] GEXChart/chart_gex_non_empty
+[RUN ] GEXChart/chart_has_spot_marker
+[PASS] GEXChart/chart_has_spot_marker
+[RUN ] GEXChart/chart_vannex_non_empty
+[PASS] GEXChart/chart_vannex_non_empty
+[RUN ] DealerAnalyzer/returns_valid_profile
+[PASS] DealerAnalyzer/returns_valid_profile
+[RUN ] DealerAnalyzer/regime_positive
+[PASS] DealerAnalyzer/regime_positive
+[RUN ] DealerAnalyzer/regime_negative
+[PASS] DealerAnalyzer/regime_negative
+[RUN ] DealerAnalyzer/regime_neutral
+[PASS] DealerAnalyzer/regime_neutral
+[RUN ] DealerAnalyzer/flow_gamma_positive
+[PASS] DealerAnalyzer/flow_gamma_positive
+[RUN ] DealerAnalyzer/flow_charm_non_zero
+[PASS] DealerAnalyzer/flow_charm_non_zero
+[RUN ] DealerAnalyzer/flow_net_bias_finite
+[PASS] DealerAnalyzer/flow_net_bias_finite
+[RUN ] DealerAnalyzer/key_level_put_wall_below
+[PASS] DealerAnalyzer/key_level_put_wall_below
+[RUN ] DealerAnalyzer/significant_in_range
+[PASS] DealerAnalyzer/significant_in_range
+[RUN ] DealerAnalyzer/report_has_sections
+╔══════════════════════════════════════════════════════╗
+║     DEALER POSITIONING REPORT — SPX                  ║
+╠══════════════════════════════════════════════════════╣
+║  Spot Price    : $   4500.00                         ║
+║  Vol Regime    : NEUTRAL (Transiti...
+[PASS] DealerAnalyzer/report_has_sections
+[RUN ] MultiExpiry/totals_larger
+[PASS] MultiExpiry/totals_larger
+[RUN ] MultiExpiry/near_expiry_higher_gamma
+[PASS] MultiExpiry/near_expiry_higher_gamma
+[RUN ] MultiExpiry/vannex_aggregates
+[PASS] MultiExpiry/vannex_aggregates
+[RUN ] MultiExpiry/max_pain
+[PASS] MultiExpiry/max_pain
+[RUN ] BS/atm_call_price
+[PASS] BS/atm_call_price
+[RUN ] BS/atm_put_price
+[PASS] BS/atm_put_price
+[RUN ] BS/put_call_parity
+[PASS] BS/put_call_parity
+[RUN ] BS/deep_itm_call
+[PASS] BS/deep_itm_call
+[RUN ] BS/deep_otm_call
+[PASS] BS/deep_otm_call
+[RUN ] BS/zero_expiry
+[PASS] BS/zero_expiry
+[RUN ] BS/zero_vol
+[PASS] BS/zero_vol
+[RUN ] BS/price_increases_with_vol
+[PASS] BS/price_increases_with_vol
+[RUN ] Greeks/delta_atm_call
+[PASS] Greeks/delta_atm_call
+[RUN ] Greeks/delta_itm_near_one
+[PASS] Greeks/delta_itm_near_one
+[RUN ] Greeks/delta_otm_near_zero
+[PASS] Greeks/delta_otm_near_zero
+[RUN ] Greeks/delta_put_call_parity
+[PASS] Greeks/delta_put_call_parity
+[RUN ] Greeks/gamma_atm_maximum
+[PASS] Greeks/gamma_atm_maximum
+[RUN ] Greeks/theta_long_negative
+[PASS] Greeks/theta_long_negative
+[RUN ] Greeks/vanna_sign
+[PASS] Greeks/vanna_sign
+[RUN ] Greeks/charm_non_zero
+[PASS] Greeks/charm_non_zero
+[RUN ] Greeks/vomma_positive_otm
+[PASS] Greeks/vomma_positive_otm
+[RUN ] Greeks/vega_atm_maximum
+[PASS] Greeks/vega_atm_maximum
+[RUN ] Greeks/rho_call_positive
+[PASS] Greeks/rho_call_positive
+[RUN ] Greeks/rho_put_negative
+[PASS] Greeks/rho_put_negative
+[RUN ] IVSolver/call_25pct
+[PASS] IVSolver/call_25pct
+[RUN ] IVSolver/put_30pct
+[PASS] IVSolver/put_30pct
+[RUN ] IVSolver/atm_fast_converge
+[PASS] IVSolver/atm_fast_converge
+[RUN ] IVSolver/zero_price
+[PASS] IVSolver/zero_price
+[RUN ] IVSolver/impossible_price
+[PASS] IVSolver/impossible_price
+[RUN ] IVSolver/roundtrip
+[PASS] IVSolver/roundtrip
+[RUN ] VolSurface/stores_points
+[PASS] VolSurface/stores_points
+[RUN ] VolSurface/interpolation
+[PASS] VolSurface/interpolation
+[RUN ] VolSurface/term_structure
+[PASS] VolSurface/term_structure
+[RUN ] VolSurface/smile_otm_higher
+[PASS] VolSurface/smile_otm_higher
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/call_put_same_strike
+[PASS] GEX/call_put_same_strike
+[RUN ] GEX/gamma_wall_strike
+[PASS] GEX/gamma_wall_strike
+[RUN ] GEX/put_wall_strike
+[PASS] GEX/put_wall_strike
+[RUN ] GEX/zero_gamma_between
+[PASS] GEX/zero_gamma_between
+[RUN ] GEX/max_pain_strike
+[PASS] GEX/max_pain_strike
+[RUN ] Dealer/flow_finite
+[PASS] Dealer/flow_finite
+[RUN ] Dealer/significant_levels
+[PASS] Dealer/significant_levels
+[RUN ] Dealer/summary_non_empty
+[PASS] Dealer/summary_non_empty
+[RUN ] DealerPos/synthetic_chain_count
+[PASS] DealerPos/synthetic_chain_count
+[RUN ] DealerPos/synthetic_has_both_types
+[PASS] DealerPos/synthetic_has_both_types
+[RUN ] DealerPos/synthetic_vol_smile
+[PASS] DealerPos/synthetic_vol_smile
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/symmetric_near_zero
+[PASS] GEX/symmetric_near_zero
+[RUN ] GEX/gamma_wall_correctness
+[PASS] GEX/gamma_wall_correctness
+[RUN ] GEX/call_wall_highest_oi
+[PASS] GEX/call_wall_highest_oi
+[RUN ] GEX/put_wall_highest_oi
+[PASS] GEX/put_wall_highest_oi
+[RUN ] GEX/zero_gamma_between_strikes
+[PASS] GEX/zero_gamma_between_strikes
+[RUN ] GEX/max_pain_symmetric
+[PASS] GEX/max_pain_symmetric
+[RUN ] GEX/dex_positive_call_heavy
+[PASS] GEX/dex_positive_call_heavy
+[RUN ] GEX/vex_positive
+[PASS] GEX/vex_positive
+[RUN ] GEX/vannex_sign
+[PASS] GEX/vannex_sign
+[RUN ] GEX/charmex_near_expiry
+[PASS] GEX/charmex_near_expiry
+[RUN ] GEXProfile/positive_gamma
+[PASS] GEXProfile/positive_gamma
+[RUN ] GEXProfile/negative_gamma
+[PASS] GEXProfile/negative_gamma
+[RUN ] GEXProfile/strikes_sorted
+[PASS] GEXProfile/strikes_sorted
+[RUN ] GEXProfile/gex_per_strike_count
+[PASS] GEXProfile/gex_per_strike_count
+[RUN ] GEXProfile/summary_has_levels
+[PASS] GEXProfile/summary_has_levels
+[RUN ] GEXChart/chart_gex_non_empty
+[PASS] GEXChart/chart_gex_non_empty
+[RUN ] GEXChart/chart_has_spot_marker
+[PASS] GEXChart/chart_has_spot_marker
+[RUN ] GEXChart/chart_vannex_non_empty
+[PASS] GEXChart/chart_vannex_non_empty
+[RUN ] DealerAnalyzer/returns_valid_profile
+[PASS] DealerAnalyzer/returns_valid_profile
+[RUN ] DealerAnalyzer/regime_positive
+[PASS] DealerAnalyzer/regime_positive
+[RUN ] DealerAnalyzer/regime_negative
+[PASS] DealerAnalyzer/regime_negative
+[RUN ] DealerAnalyzer/regime_neutral
+[PASS] DealerAnalyzer/regime_neutral
+[RUN ] DealerAnalyzer/flow_gamma_positive
+[PASS] DealerAnalyzer/flow_gamma_positive
+[RUN ] DealerAnalyzer/flow_charm_non_zero
+[PASS] DealerAnalyzer/flow_charm_non_zero
+[RUN ] DealerAnalyzer/flow_net_bias_finite
+[PASS] DealerAnalyzer/flow_net_bias_finite
+[RUN ] DealerAnalyzer/key_level_put_wall_below
+[PASS] DealerAnalyzer/key_level_put_wall_below
+[RUN ] DealerAnalyzer/significant_in_range
+[PASS] DealerAnalyzer/significant_in_range
+[RUN ] DealerAnalyzer/report_has_sections
+╔══════════════════════════════════════════════════════╗
+║     DEALER POSITIONING REPORT — SPX                  ║
+╠══════════════════════════════════════════════════════╣
+║  Spot Price    : $   4500.00                         ║
+║  Vol Regime    : NEUTRAL (Transiti...
+[PASS] DealerAnalyzer/report_has_sections
+[RUN ] MultiExpiry/totals_larger
+[PASS] MultiExpiry/totals_larger
+[RUN ] MultiExpiry/near_expiry_higher_gamma
+[PASS] MultiExpiry/near_expiry_higher_gamma
+[RUN ] MultiExpiry/vannex_aggregates
+[PASS] MultiExpiry/vannex_aggregates
+[RUN ] MultiExpiry/max_pain
+[PASS] MultiExpiry/max_pain
+[RUN ] BS/atm_call_price
+[PASS] BS/atm_call_price
+[RUN ] BS/atm_put_price
+[PASS] BS/atm_put_price
+[RUN ] BS/put_call_parity
+[PASS] BS/put_call_parity
+[RUN ] BS/deep_itm_call
+[PASS] BS/deep_itm_call
+[RUN ] BS/deep_otm_call
+[PASS] BS/deep_otm_call
+[RUN ] BS/zero_expiry
+[PASS] BS/zero_expiry
+[RUN ] BS/zero_vol
+[PASS] BS/zero_vol
+[RUN ] BS/price_increases_with_vol
+[PASS] BS/price_increases_with_vol
+[RUN ] Greeks/delta_atm_call
+[PASS] Greeks/delta_atm_call
+[RUN ] Greeks/delta_itm_near_one
+[PASS] Greeks/delta_itm_near_one
+[RUN ] Greeks/delta_otm_near_zero
+[PASS] Greeks/delta_otm_near_zero
+[RUN ] Greeks/delta_put_call_parity
+[PASS] Greeks/delta_put_call_parity
+[RUN ] Greeks/gamma_atm_maximum
+[PASS] Greeks/gamma_atm_maximum
+[RUN ] Greeks/theta_long_negative
+[PASS] Greeks/theta_long_negative
+[RUN ] Greeks/vanna_sign
+[PASS] Greeks/vanna_sign
+[RUN ] Greeks/charm_non_zero
+[PASS] Greeks/charm_non_zero
+[RUN ] Greeks/vomma_positive_otm
+[PASS] Greeks/vomma_positive_otm
+[RUN ] Greeks/vega_atm_maximum
+[PASS] Greeks/vega_atm_maximum
+[RUN ] Greeks/rho_call_positive
+[PASS] Greeks/rho_call_positive
+[RUN ] Greeks/rho_put_negative
+[PASS] Greeks/rho_put_negative
+[RUN ] IVSolver/call_25pct
+[PASS] IVSolver/call_25pct
+[RUN ] IVSolver/put_30pct
+[PASS] IVSolver/put_30pct
+[RUN ] IVSolver/atm_fast_converge
+[PASS] IVSolver/atm_fast_converge
+[RUN ] IVSolver/zero_price
+[PASS] IVSolver/zero_price
+[RUN ] IVSolver/impossible_price
+[PASS] IVSolver/impossible_price
+[RUN ] IVSolver/roundtrip
+[PASS] IVSolver/roundtrip
+[RUN ] VolSurface/stores_points
+[PASS] VolSurface/stores_points
+[RUN ] VolSurface/interpolation
+[PASS] VolSurface/interpolation
+[RUN ] VolSurface/term_structure
+[PASS] VolSurface/term_structure
+[RUN ] VolSurface/smile_otm_higher
+[PASS] VolSurface/smile_otm_higher
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/call_put_same_strike
+[PASS] GEX/call_put_same_strike
+[RUN ] GEX/gamma_wall_strike
+[PASS] GEX/gamma_wall_strike
+[RUN ] GEX/put_wall_strike
+[PASS] GEX/put_wall_strike
+[RUN ] GEX/zero_gamma_between
+[PASS] GEX/zero_gamma_between
+[RUN ] GEX/max_pain_strike
+[PASS] GEX/max_pain_strike
+[RUN ] Dealer/flow_finite
+[PASS] Dealer/flow_finite
+[RUN ] Dealer/significant_levels
+[PASS] Dealer/significant_levels
+[RUN ] Dealer/summary_non_empty
+[PASS] Dealer/summary_non_empty
+[RUN ] DealerPos/synthetic_chain_count
+[PASS] DealerPos/synthetic_chain_count
+[RUN ] DealerPos/synthetic_has_both_types
+[PASS] DealerPos/synthetic_has_both_types
+[RUN ] DealerPos/synthetic_vol_smile
+[PASS] DealerPos/synthetic_vol_smile
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/symmetric_near_zero
+[PASS] GEX/symmetric_near_zero
+[RUN ] GEX/gamma_wall_correctness
+[PASS] GEX/gamma_wall_correctness
+[RUN ] GEX/call_wall_highest_oi
+[PASS] GEX/call_wall_highest_oi
+[RUN ] GEX/put_wall_highest_oi
+[PASS] GEX/put_wall_highest_oi
+[RUN ] GEX/zero_gamma_between_strikes
+[PASS] GEX/zero_gamma_between_strikes
+[RUN ] GEX/max_pain_symmetric
+[PASS] GEX/max_pain_symmetric
+[RUN ] GEX/dex_positive_call_heavy
+[PASS] GEX/dex_positive_call_heavy
+[RUN ] GEX/vex_positive
+[PASS] GEX/vex_positive
+[RUN ] GEX/vannex_sign
+[PASS] GEX/vannex_sign
+[RUN ] GEX/charmex_near_expiry
+[PASS] GEX/charmex_near_expiry
+[RUN ] GEXProfile/positive_gamma
+[PASS] GEXProfile/positive_gamma
+[RUN ] GEXProfile/negative_gamma
+[PASS] GEXProfile/negative_gamma
+[RUN ] GEXProfile/strikes_sorted
+[PASS] GEXProfile/strikes_sorted
+[RUN ] GEXProfile/gex_per_strike_count
+[PASS] GEXProfile/gex_per_strike_count
+[RUN ] GEXProfile/summary_has_levels
+[PASS] GEXProfile/summary_has_levels
+[RUN ] GEXChart/chart_gex_non_empty
+[PASS] GEXChart/chart_gex_non_empty
+[RUN ] GEXChart/chart_has_spot_marker
+[PASS] GEXChart/chart_has_spot_marker
+[RUN ] GEXChart/chart_vannex_non_empty
+[PASS] GEXChart/chart_vannex_non_empty
+[RUN ] DealerAnalyzer/returns_valid_profile
+[PASS] DealerAnalyzer/returns_valid_profile
+[RUN ] DealerAnalyzer/regime_positive
+[PASS] DealerAnalyzer/regime_positive
+[RUN ] DealerAnalyzer/regime_negative
+[PASS] DealerAnalyzer/regime_negative
+[RUN ] DealerAnalyzer/regime_neutral
+[PASS] DealerAnalyzer/regime_neutral
+[RUN ] DealerAnalyzer/flow_gamma_positive
+[PASS] DealerAnalyzer/flow_gamma_positive
+[RUN ] DealerAnalyzer/flow_charm_non_zero
+[PASS] DealerAnalyzer/flow_charm_non_zero
+[RUN ] DealerAnalyzer/flow_net_bias_finite
+[PASS] DealerAnalyzer/flow_net_bias_finite
+[RUN ] DealerAnalyzer/key_level_put_wall_below
+[PASS] DealerAnalyzer/key_level_put_wall_below
+[RUN ] DealerAnalyzer/significant_in_range
+[PASS] DealerAnalyzer/significant_in_range
+[RUN ] DealerAnalyzer/report_has_sections
+╔══════════════════════════════════════════════════════╗
+║     DEALER POSITIONING REPORT — SPX                  ║
+╠══════════════════════════════════════════════════════╣
+║  Spot Price    : $   4500.00                         ║
+║  Vol Regime    : NEUTRAL (Transiti...
+[PASS] DealerAnalyzer/report_has_sections
+[RUN ] MultiExpiry/totals_larger
+[PASS] MultiExpiry/totals_larger
+[RUN ] MultiExpiry/near_expiry_higher_gamma
+[PASS] MultiExpiry/near_expiry_higher_gamma
+[RUN ] MultiExpiry/vannex_aggregates
+[PASS] MultiExpiry/vannex_aggregates
+[RUN ] MultiExpiry/max_pain
+[PASS] MultiExpiry/max_pain
+[RUN ] BS/atm_call_price
+[PASS] BS/atm_call_price
+[RUN ] BS/atm_put_price
+[PASS] BS/atm_put_price
+[RUN ] BS/put_call_parity
+[PASS] BS/put_call_parity
+[RUN ] BS/deep_itm_call
+[PASS] BS/deep_itm_call
+[RUN ] BS/deep_otm_call
+[PASS] BS/deep_otm_call
+[RUN ] BS/zero_expiry
+[PASS] BS/zero_expiry
+[RUN ] BS/zero_vol
+[PASS] BS/zero_vol
+[RUN ] BS/price_increases_with_vol
+[PASS] BS/price_increases_with_vol
+[RUN ] Greeks/delta_atm_call
+[PASS] Greeks/delta_atm_call
+[RUN ] Greeks/delta_itm_near_one
+[PASS] Greeks/delta_itm_near_one
+[RUN ] Greeks/delta_otm_near_zero
+[PASS] Greeks/delta_otm_near_zero
+[RUN ] Greeks/delta_put_call_parity
+[PASS] Greeks/delta_put_call_parity
+[RUN ] Greeks/gamma_atm_maximum
+[PASS] Greeks/gamma_atm_maximum
+[RUN ] Greeks/theta_long_negative
+[PASS] Greeks/theta_long_negative
+[RUN ] Greeks/vanna_sign
+[PASS] Greeks/vanna_sign
+[RUN ] Greeks/charm_non_zero
+[PASS] Greeks/charm_non_zero
+[RUN ] Greeks/vomma_positive_otm
+[PASS] Greeks/vomma_positive_otm
+[RUN ] Greeks/vega_atm_maximum
+[PASS] Greeks/vega_atm_maximum
+[RUN ] Greeks/rho_call_positive
+[PASS] Greeks/rho_call_positive
+[RUN ] Greeks/rho_put_negative
+[PASS] Greeks/rho_put_negative
+[RUN ] IVSolver/call_25pct
+[PASS] IVSolver/call_25pct
+[RUN ] IVSolver/put_30pct
+[PASS] IVSolver/put_30pct
+[RUN ] IVSolver/atm_fast_converge
+[PASS] IVSolver/atm_fast_converge
+[RUN ] IVSolver/zero_price
+[PASS] IVSolver/zero_price
+[RUN ] IVSolver/impossible_price
+[PASS] IVSolver/impossible_price
+[RUN ] IVSolver/roundtrip
+[PASS] IVSolver/roundtrip
+[RUN ] VolSurface/stores_points
+[PASS] VolSurface/stores_points
+[RUN ] VolSurface/interpolation
+[PASS] VolSurface/interpolation
+[RUN ] VolSurface/term_structure
+[PASS] VolSurface/term_structure
+[RUN ] VolSurface/smile_otm_higher
+[PASS] VolSurface/smile_otm_higher
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/call_put_same_strike
+[PASS] GEX/call_put_same_strike
+[RUN ] GEX/gamma_wall_strike
+[PASS] GEX/gamma_wall_strike
+[RUN ] GEX/put_wall_strike
+[PASS] GEX/put_wall_strike
+[RUN ] GEX/zero_gamma_between
+[PASS] GEX/zero_gamma_between
+[RUN ] GEX/max_pain_strike
+[PASS] GEX/max_pain_strike
+[RUN ] Dealer/flow_finite
+[PASS] Dealer/flow_finite
+[RUN ] Dealer/significant_levels
+[PASS] Dealer/significant_levels
+[RUN ] Dealer/summary_non_empty
+[PASS] Dealer/summary_non_empty
+[RUN ] DealerPos/synthetic_chain_count
+[PASS] DealerPos/synthetic_chain_count
+[RUN ] DealerPos/synthetic_has_both_types
+[PASS] DealerPos/synthetic_has_both_types
+[RUN ] DealerPos/synthetic_vol_smile
+[PASS] DealerPos/synthetic_vol_smile
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/symmetric_near_zero
+[PASS] GEX/symmetric_near_zero
+[RUN ] GEX/gamma_wall_correctness
+[PASS] GEX/gamma_wall_correctness
+[RUN ] GEX/call_wall_highest_oi
+[PASS] GEX/call_wall_highest_oi
+[RUN ] GEX/put_wall_highest_oi
+[PASS] GEX/put_wall_highest_oi
+[RUN ] GEX/zero_gamma_between_strikes
+[PASS] GEX/zero_gamma_between_strikes
+[RUN ] GEX/max_pain_symmetric
+[PASS] GEX/max_pain_symmetric
+[RUN ] GEX/dex_positive_call_heavy
+[PASS] GEX/dex_positive_call_heavy
+[RUN ] GEX/vex_positive
+[PASS] GEX/vex_positive
+[RUN ] GEX/vannex_sign
+[PASS] GEX/vannex_sign
+[RUN ] GEX/charmex_near_expiry
+[PASS] GEX/charmex_near_expiry
+[RUN ] GEXProfile/positive_gamma
+[PASS] GEXProfile/positive_gamma
+[RUN ] GEXProfile/negative_gamma
+[PASS] GEXProfile/negative_gamma
+[RUN ] GEXProfile/strikes_sorted
+[PASS] GEXProfile/strikes_sorted
+[RUN ] GEXProfile/gex_per_strike_count
+[PASS] GEXProfile/gex_per_strike_count
+[RUN ] GEXProfile/summary_has_levels
+[PASS] GEXProfile/summary_has_levels
+[RUN ] GEXChart/chart_gex_non_empty
+[PASS] GEXChart/chart_gex_non_empty
+[RUN ] GEXChart/chart_has_spot_marker
+[PASS] GEXChart/chart_has_spot_marker
+[RUN ] GEXChart/chart_vannex_non_empty
+[PASS] GEXChart/chart_vannex_non_empty
+[RUN ] DealerAnalyzer/returns_valid_profile
+[PASS] DealerAnalyzer/returns_valid_profile
+[RUN ] DealerAnalyzer/regime_positive
+[PASS] DealerAnalyzer/regime_positive
+[RUN ] DealerAnalyzer/regime_negative
+[PASS] DealerAnalyzer/regime_negative
+[RUN ] DealerAnalyzer/regime_neutral
+[PASS] DealerAnalyzer/regime_neutral
+[RUN ] DealerAnalyzer/flow_gamma_positive
+[PASS] DealerAnalyzer/flow_gamma_positive
+[RUN ] DealerAnalyzer/flow_charm_non_zero
+[PASS] DealerAnalyzer/flow_charm_non_zero
+[RUN ] DealerAnalyzer/flow_net_bias_finite
+[PASS] DealerAnalyzer/flow_net_bias_finite
+[RUN ] DealerAnalyzer/key_level_put_wall_below
+[PASS] DealerAnalyzer/key_level_put_wall_below
+[RUN ] DealerAnalyzer/significant_in_range
+[PASS] DealerAnalyzer/significant_in_range
+[RUN ] DealerAnalyzer/report_has_sections
+╔══════════════════════════════════════════════════════╗
+║     DEALER POSITIONING REPORT — SPX                  ║
+╠══════════════════════════════════════════════════════╣
+║  Spot Price    : $   4500.00                         ║
+║  Vol Regime    : NEUTRAL (Transiti...
+[PASS] DealerAnalyzer/report_has_sections
+[RUN ] MultiExpiry/totals_larger
+[PASS] MultiExpiry/totals_larger
+[RUN ] MultiExpiry/near_expiry_higher_gamma
+[PASS] MultiExpiry/near_expiry_higher_gamma
+[RUN ] MultiExpiry/vannex_aggregates
+[PASS] MultiExpiry/vannex_aggregates
+[RUN ] MultiExpiry/max_pain
+[PASS] MultiExpiry/max_pain
+[RUN ] BS/atm_call_price
+[PASS] BS/atm_call_price
+[RUN ] BS/atm_put_price
+[PASS] BS/atm_put_price
+[RUN ] BS/put_call_parity
+[PASS] BS/put_call_parity
+[RUN ] BS/deep_itm_call
+[PASS] BS/deep_itm_call
+[RUN ] BS/deep_otm_call
+[PASS] BS/deep_otm_call
+[RUN ] BS/zero_expiry
+[PASS] BS/zero_expiry
+[RUN ] BS/zero_vol
+[PASS] BS/zero_vol
+[RUN ] BS/price_increases_with_vol
+[PASS] BS/price_increases_with_vol
+[RUN ] Greeks/delta_atm_call
+[PASS] Greeks/delta_atm_call
+[RUN ] Greeks/delta_itm_near_one
+[PASS] Greeks/delta_itm_near_one
+[RUN ] Greeks/delta_otm_near_zero
+[PASS] Greeks/delta_otm_near_zero
+[RUN ] Greeks/delta_put_call_parity
+[PASS] Greeks/delta_put_call_parity
+[RUN ] Greeks/gamma_atm_maximum
+[PASS] Greeks/gamma_atm_maximum
+[RUN ] Greeks/theta_long_negative
+[PASS] Greeks/theta_long_negative
+[RUN ] Greeks/vanna_sign
+[PASS] Greeks/vanna_sign
+[RUN ] Greeks/charm_non_zero
+[PASS] Greeks/charm_non_zero
+[RUN ] Greeks/vomma_positive_otm
+[PASS] Greeks/vomma_positive_otm
+[RUN ] Greeks/vega_atm_maximum
+[PASS] Greeks/vega_atm_maximum
+[RUN ] Greeks/rho_call_positive
+[PASS] Greeks/rho_call_positive
+[RUN ] Greeks/rho_put_negative
+[PASS] Greeks/rho_put_negative
+[RUN ] IVSolver/call_25pct
+[PASS] IVSolver/call_25pct
+[RUN ] IVSolver/put_30pct
+[PASS] IVSolver/put_30pct
+[RUN ] IVSolver/atm_fast_converge
+[PASS] IVSolver/atm_fast_converge
+[RUN ] IVSolver/zero_price
+[PASS] IVSolver/zero_price
+[RUN ] IVSolver/impossible_price
+[PASS] IVSolver/impossible_price
+[RUN ] IVSolver/roundtrip
+[PASS] IVSolver/roundtrip
+[RUN ] VolSurface/stores_points
+[PASS] VolSurface/stores_points
+[RUN ] VolSurface/interpolation
+[PASS] VolSurface/interpolation
+[RUN ] VolSurface/term_structure
+[PASS] VolSurface/term_structure
+[RUN ] VolSurface/smile_otm_higher
+[PASS] VolSurface/smile_otm_higher
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/call_put_same_strike
+[PASS] GEX/call_put_same_strike
+[RUN ] GEX/gamma_wall_strike
+[PASS] GEX/gamma_wall_strike
+[RUN ] GEX/put_wall_strike
+[PASS] GEX/put_wall_strike
+[RUN ] GEX/zero_gamma_between
+[PASS] GEX/zero_gamma_between
+[RUN ] GEX/max_pain_strike
+[PASS] GEX/max_pain_strike
+[RUN ] Dealer/flow_finite
+[PASS] Dealer/flow_finite
+[RUN ] Dealer/significant_levels
+[PASS] Dealer/significant_levels
+[RUN ] Dealer/summary_non_empty
+[PASS] Dealer/summary_non_empty
+[RUN ] DealerPos/synthetic_chain_count
+[PASS] DealerPos/synthetic_chain_count
+[RUN ] DealerPos/synthetic_has_both_types
+[PASS] DealerPos/synthetic_has_both_types
+[RUN ] DealerPos/synthetic_vol_smile
+[PASS] DealerPos/synthetic_vol_smile
+[RUN ] GEX/single_call_positive
+[PASS] GEX/single_call_positive
+[RUN ] GEX/single_put_negative
+[PASS] GEX/single_put_negative
+[RUN ] GEX/symmetric_near_zero
+[PASS] GEX/symmetric_near_zero
+[RUN ] GEX/gamma_wall_correctness
+[PASS] GEX/gamma_wall_correctness
+[RUN ] GEX/call_wall_highest_oi
+[PASS] GEX/call_wall_highest_oi
+[RUN ] GEX/put_wall_highest_oi
+[PASS] GEX/put_wall_highest_oi
+[RUN ] GEX/zero_gamma_between_strikes
+[PASS] GEX/zero_gamma_between_strikes
+[RUN ] GEX/max_pain_symmetric
+[PASS] GEX/max_pain_symmetric
+[RUN ] GEX/dex_positive_call_heavy
+[PASS] GEX/dex_positive_call_heavy
+[RUN ] GEX/vex_positive
+[PASS] GEX/vex_positive
+[RUN ] GEX/vannex_sign
+[PASS] GEX/vannex_sign
+[RUN ] GEX/charmex_near_expiry
+[PASS] GEX/charmex_near_expiry
+[RUN ] GEXProfile/positive_gamma
+[PASS] GEXProfile/positive_gamma
+[RUN ] GEXProfile/negative_gamma
+[PASS] GEXProfile/negative_gamma
+[RUN ] GEXProfile/strikes_sorted
+[PASS] GEXProfile/strikes_sorted
+[RUN ] GEXProfile/gex_per_strike_count
+[PASS] GEXProfile/gex_per_strike_count
+[RUN ] GEXProfile/summary_has_levels
+[PASS] GEXProfile/summary_has_levels
+[RUN ] GEXChart/chart_gex_non_empty
+[PASS] GEXChart/chart_gex_non_empty
+[RUN ] GEXChart/chart_has_spot_marker
+[PASS] GEXChart/chart_has_spot_marker
+[RUN ] GEXChart/chart_vannex_non_empty
+[PASS] GEXChart/chart_vannex_non_empty
+[RUN ] DealerAnalyzer/returns_valid_profile
+[PASS] DealerAnalyzer/returns_valid_profile
+[RUN ] DealerAnalyzer/regime_positive
+[PASS] DealerAnalyzer/regime_positive
+[RUN ] DealerAnalyzer/regime_negative
+[PASS] DealerAnalyzer/regime_negative
+[RUN ] DealerAnalyzer/regime_neutral
+[PASS] DealerAnalyzer/regime_neutral
+[RUN ] DealerAnalyzer/flow_gamma_positive
+[PASS] DealerAnalyzer/flow_gamma_positive
+[RUN ] DealerAnalyzer/flow_charm_non_zero
+[PASS] DealerAnalyzer/flow_charm_non_zero
+[RUN ] DealerAnalyzer/flow_net_bias_finite
+[PASS] DealerAnalyzer/flow_net_bias_finite
+[RUN ] DealerAnalyzer/key_level_put_wall_below
+[PASS] DealerAnalyzer/key_level_put_wall_below
+[RUN ] DealerAnalyzer/significant_in_range
+[PASS] DealerAnalyzer/significant_in_range
+[RUN ] DealerAnalyzer/report_has_sections
+╔══════════════════════════════════════════════════════╗
+║     DEALER POSITIONING REPORT — SPX                  ║
+╠══════════════════════════════════════════════════════╣
+║  Spot Price    : $   4500.00                         ║
+║  Vol Regime    : NEUTRAL (Transiti...
+[PASS] DealerAnalyzer/report_has_sections
+[RUN ] MultiExpiry/totals_larger
+[PASS] MultiExpiry/totals_larger
+[RUN ] MultiExpiry/near_expiry_higher_gamma
+[PASS] MultiExpiry/near_expiry_higher_gamma
+[RUN ] MultiExpiry/vannex_aggregates
+[PASS] MultiExpiry/vannex_aggregates
+[RUN ] MultiExpiry/max_pain
+[PASS] MultiExpiry/max_pain
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Results: 719 passed, 0 failed / 719 total
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"QuantTradingLabTests" end time: Jun 13 21:09 WAT
+"QuantTradingLabTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 13 21:09 WAT

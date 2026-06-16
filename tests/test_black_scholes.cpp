@@ -472,9 +472,9 @@ static void test_dealer_flow_finite() {
     chain.push_back(makeContract(100, OptionType::Put,  1000, 0.20));
     auto profile = DealerPositioningAnalyzer::analyze(chain, 100.0);
     auto flow    = DealerPositioningAnalyzer::estimateFlow(profile);
-    ASSERT_TRUE(std::isfinite(flow.gammaHedge), "gammaHedge finite");
-    ASSERT_TRUE(std::isfinite(flow.vannaHedge), "vannaHedge finite");
-    ASSERT_TRUE(std::isfinite(flow.charmHedge), "charmHedge finite");
+    ASSERT_TRUE(std::isfinite(flow.gammaFlowPer1pctMove), "gammaFlow finite");
+    ASSERT_TRUE(std::isfinite(flow.vannaFlowPer1ptVol), "vannaFlow finite");
+    ASSERT_TRUE(std::isfinite(flow.charmFlowPerDay), "charmFlow finite");
     ASSERT_FALSE(flow.toString().empty(), "flow toString non-empty");
 }
 
@@ -484,11 +484,12 @@ static void test_dealer_significant_levels_filtered() {
         chain.push_back(makeContract(k, OptionType::Call, 1000.0, 0.20 + (k-100)*0.001));
     }
     auto profile = DealerPositioningAnalyzer::analyze(chain, 100.0);
-    auto levels  = DealerPositioningAnalyzer::significantLevels(profile, 0.10);
+    auto levels  = DealerPositioningAnalyzer::significantStrikes(profile, 20, 0.10);
 
     // Should only include strikes within 10% of spot (90-110)
-    for (auto& [strike, gex] : levels) {
-        ASSERT_TRUE(strike >= 90.0 && strike <= 110.0,
+    for (auto& sp : levels) {
+        double dist = std::abs(sp.strike - 100.0) / 100.0;
+        ASSERT_TRUE(dist <= 0.10 + 1e-9,
                     "all significant levels within 10% of spot");
     }
 }
