@@ -1,6 +1,5 @@
 /**
- * @file portfolio/accounting/PortfolioAccountant.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * @file portfolio/accounting/PortfolioAccountant.cpp — Header-only. This TU satisfies CMake.
  */
 #include "portfolio/accounting/PortfolioAccountant.hpp"
 namespace qtl {}

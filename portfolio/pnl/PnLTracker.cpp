@@ -1,6 +1,5 @@
 /**
- * @file portfolio/pnl/PnLTracker.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * @file portfolio/pnl/PnLTracker.cpp — Header-only. This TU satisfies CMake.
  */
 #include "portfolio/pnl/PnLTracker.hpp"
 namespace qtl {}

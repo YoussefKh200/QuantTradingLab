@@ -1,6 +1,5 @@
 /**
- * @file portfolio/positions/PositionManager.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * @file portfolio/positions/PositionManager.cpp — Header-only. This TU satisfies CMake.
  */
 #include "portfolio/positions/PositionManager.hpp"
 namespace qtl {}

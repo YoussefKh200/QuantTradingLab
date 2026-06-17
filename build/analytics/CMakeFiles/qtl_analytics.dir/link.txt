@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libqtl_analytics.a CMakeFiles/qtl_analytics.dir/statistics/Statistics.cpp.o CMakeFiles/qtl_analytics.dir/montecarlo/MonteCarlo.cpp.o CMakeFiles/qtl_analytics.dir/optimization/ParameterOptimizer.cpp.o CMakeFiles/qtl_analytics.dir/metrics/PerformanceMetrics.cpp.o
-/usr/bin/ranlib ../lib/libqtl_analytics.a
