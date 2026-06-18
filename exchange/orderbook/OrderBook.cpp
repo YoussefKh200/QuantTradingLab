@@ -11,8 +11,9 @@
 
 namespace qtl {
 
-OrderBook::OrderBook(Symbol symbol)
+OrderBook::OrderBook(Symbol symbol, size_t maxDepthLevels)
     : symbol_{std::move(symbol)}
+    , maxDepthLevels_{maxDepthLevels}
 {}
 
 // ─────────────────────────────────────────────────────────────
@@ -62,6 +63,7 @@ AddResult OrderBook::addOrder(Order order) {
             order.tif != TimeInForce::FOK) {
             auto [it, ok] = orders_.emplace(order.id, std::move(order));
             restOrder(it->second);
+            pruneDepthLevels();  // Enforce depth limits after adding order
         } else {
             order.status = OrderStatus::Cancelled;
         }
@@ -423,6 +425,46 @@ void OrderBook::removeFromLevel(OrderId id) {
         --askOrderCount_;
     }
     iterMap_.erase(mit);
+}
+
+// ─────────────────────────────────────────────────────────────
+// pruneDepthLevels — remove excess price levels beyond maxDepthLevels_
+// ─────────────────────────────────────────────────────────────
+
+void OrderBook::pruneDepthLevels() {
+    // Prune bids (remove worst bids beyond max depth)
+    while (bids_.size() > maxDepthLevels_) {
+        auto it = std::prev(bids_.end());
+        const PriceLevel& level = it->second;
+        
+        // Cancel all orders at this price level
+        for (auto* order : level.orders()) {
+            if (order->isActive()) {
+                order->status = OrderStatus::Cancelled;
+                orders_.erase(order->id);
+                iterMap_.erase(order->id);
+                --bidOrderCount_;
+            }
+        }
+        bids_.erase(it);
+    }
+    
+    // Prune asks (remove worst asks beyond max depth)
+    while (asks_.size() > maxDepthLevels_) {
+        auto it = std::prev(asks_.end());
+        const PriceLevel& level = it->second;
+        
+        // Cancel all orders at this price level
+        for (auto* order : level.orders()) {
+            if (order->isActive()) {
+                order->status = OrderStatus::Cancelled;
+                orders_.erase(order->id);
+                iterMap_.erase(order->id);
+                --askOrderCount_;
+            }
+        }
+        asks_.erase(it);
+    }
 }
 
 } // namespace qtl

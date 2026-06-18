@@ -1,6 +1,10 @@
 /**
  * @file analytics/montecarlo/MonteCarlo.cpp
- * Stub compilation unit — implementation added in corresponding phase.
+ * @brief Implementation of Monte Carlo simulation engine.
  */
 #include "analytics/montecarlo/MonteCarlo.hpp"
-namespace qtl {}
+
+namespace qtl {
+// All implementations are inlined in the header for performance
+// This file exists for future expansion and template instantiations
+}

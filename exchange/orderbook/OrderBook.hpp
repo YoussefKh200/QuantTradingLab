@@ -48,13 +48,17 @@ class OrderBook {
 public:
     using TradeCallback = std::function<void(const TradeReport&)>;
 
-    explicit OrderBook(Symbol symbol);
+    explicit OrderBook(Symbol symbol, size_t maxDepthLevels = 1000);
     ~OrderBook() = default;
 
     OrderBook(const OrderBook&)            = delete;
     OrderBook& operator=(const OrderBook&) = delete;
 
     void setTradeCallback(TradeCallback cb) { onTrade_ = std::move(cb); }
+    
+    // Set maximum number of price levels to maintain (prevents unbounded growth)
+    void setMaxDepthLevels(size_t maxDepth) { maxDepthLevels_ = maxDepth; }
+    [[nodiscard]] size_t maxDepthLevels() const noexcept { return maxDepthLevels_; }
 
     // ── Core API ─────────────────────────────────────────────
     [[nodiscard]] AddResult addOrder(Order order);
@@ -91,6 +95,7 @@ private:
     void       restOrder(Order& order);
     void       removeFromLevel(OrderId id);
     TradeReport executeTrade(Order& maker, Order& taker, Quantity qty);
+    void       pruneDepthLevels();  // Remove excess price levels beyond maxDepthLevels_
 
     Symbol symbol_;
     std::map<Price, PriceLevel, std::greater<Price>> bids_;
@@ -104,6 +109,7 @@ private:
     uint64_t ordersAdded_{0};
     size_t   bidOrderCount_{0};
     size_t   askOrderCount_{0};
+    size_t   maxDepthLevels_{1000};  // Maximum price levels to maintain
 
     TradeCallback onTrade_;
 };

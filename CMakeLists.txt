@@ -54,6 +54,28 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 find_package(Threads REQUIRED)
 
 # ─────────────────────────────────────────────────────────────
+# Optional packages for visualization
+# ─────────────────────────────────────────────────────────────
+option(QTL_ENABLE_VISUALIZATION "Enable visualization module (requires OpenGL + Dear ImGui)" OFF)
+
+if(QTL_ENABLE_VISUALIZATION)
+    find_package(OpenGL QUIET)
+    find_package(glfw3 QUIET)
+    
+    if(OpenGL_FOUND AND glfw3_FOUND)
+        set(QTL_VISUALIZATION_AVAILABLE TRUE)
+        message(STATUS "Visualization module enabled")
+    else()
+        set(QTL_VISUALIZATION_AVAILABLE FALSE)
+        message(WARNING "Visualization dependencies not found (OpenGL/GLFW), disabling visualization")
+        set(QTL_ENABLE_VISUALIZATION OFF CACHE BOOL "Enable visualization module" FORCE)
+    endif()
+else()
+    set(QTL_VISUALIZATION_AVAILABLE FALSE)
+    message(STATUS "Visualization module disabled")
+endif()
+
+# ─────────────────────────────────────────────────────────────
 # Global include path — every sub-module can #include relative
 # to the project root (e.g. #include "core/events/Event.hpp")
 # ─────────────────────────────────────────────────────────────
@@ -74,7 +96,9 @@ add_subdirectory(backtesting)
 add_subdirectory(analytics)
 add_subdirectory(options)
 # visualization is optional (requires OpenGL + Dear ImGui)
-# add_subdirectory(visualization)
+if(QTL_VISUALIZATION_AVAILABLE)
+    add_subdirectory(visualization)
+endif()
 
 # ─────────────────────────────────────────────────────────────
 # Tests
@@ -99,6 +123,12 @@ target_link_libraries(QuantTradingLab
         qtl_options
         Threads::Threads
 )
+
+# Conditionally link visualization library if available
+if(QTL_VISUALIZATION_AVAILABLE)
+    target_link_libraries(QuantTradingLab PRIVATE qtl_visualization)
+    target_compile_definitions(QuantTradingLab PRIVATE QTL_VISUALIZATION_ENABLED)
+endif()
 
 # ─────────────────────────────────────────────────────────────
 # Install rules

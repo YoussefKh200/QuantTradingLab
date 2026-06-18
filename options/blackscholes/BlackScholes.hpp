@@ -40,6 +40,7 @@
 #include <algorithm>
 #include <stdexcept>
 #include <string>
+#include <optional>
 
 namespace qtl {
 
@@ -318,6 +319,72 @@ public:
         return putPrice
                + in.spot   * std::exp(-in.divYield * in.timeToExpiry)
                - in.strike * std::exp(-in.rate      * in.timeToExpiry);
+    }
+
+    // ── Implied Volatility Solver ───────────────────────────────────
+
+    /**
+     * @brief Compute implied volatility using Newton-Raphson method.
+     * 
+     * Solves for σ such that BSM_price(σ) = market_price.
+     * Uses Newton-Raphson iteration with vega as derivative.
+     * 
+     * @param marketPrice Observed market price of the option
+     * @param in BSM input parameters (vol will be used as initial guess)
+     * @param maxIterations Maximum Newton-Raphson iterations (default: 100)
+     * @param tolerance Convergence tolerance (default: 1e-8)
+     * @return Implied volatility or std::nullopt if convergence fails
+     */
+    [[nodiscard]] static std::optional<double>
+    impliedVolatility(double marketPrice,
+                      const BSMInput& in,
+                      int maxIterations = 100,
+                      double tolerance = 1e-8) noexcept {
+        if (!in.isValid() || marketPrice <= 0.0) {
+            return std::nullopt;
+        }
+
+        // Initial guess: use provided vol or reasonable default
+        double vol = in.vol > 0.0 ? in.vol : 0.2;
+        
+        BSMInput input = in;
+        
+        for (int i = 0; i < maxIterations; ++i) {
+            input.vol = vol;
+            BSMResult result = compute(input);
+            
+            double priceError = result.price - marketPrice;
+            
+            // Check convergence
+            if (std::abs(priceError) < tolerance) {
+                return vol;
+            }
+            
+            // Newton-Raphson update: σ_new = σ - f(σ) / f'(σ)
+            // f(σ) = BSM_price(σ) - market_price
+            // f'(σ) = vega
+            
+            if (std::abs(result.vega) < 1e-12) {
+                // Vega too small, cannot continue
+                return std::nullopt;
+            }
+            
+            double volChange = priceError / result.vega;
+            vol -= volChange;
+            
+            // Ensure volatility stays positive
+            if (vol <= 0.0) {
+                vol = 1e-6; // Small positive value
+            }
+            
+            // Prevent runaway
+            if (vol > 5.0) {
+                return std::nullopt;
+            }
+        }
+        
+        // Failed to converge
+        return std::nullopt;
     }
 };
 
