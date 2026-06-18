@@ -14,6 +14,7 @@ add_executable(qtl_tests
     test_black_scholes.cpp
     test_dealer_positioning.cpp
     test_portfolio.cpp
+    test_low_latency.cpp
 )
 
 target_include_directories(qtl_tests PRIVATE ${CMAKE_SOURCE_DIR})

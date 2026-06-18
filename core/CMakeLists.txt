@@ -1,11 +1,3 @@
-# ─────────────────────────────────────────────────────────────
-# core — foundational infrastructure
-#   events   : event hierarchy, queue, dispatcher
-#   clock    : high-resolution simulation/wall clock
-#   logger   : thread-safe structured logger
-#   threading: lock-free primitives, thread pool
-#   config   : key-value configuration store
-# ─────────────────────────────────────────────────────────────
 add_library(qtl_core STATIC
     # Phase 1
     events/Event.cpp
@@ -20,7 +12,10 @@ add_library(qtl_core STATIC
     events/EventPool.cpp
     events/EventLoop.cpp
     events/SPSCEventQueue.cpp
+    # Phase 12
+    threading/MemoryPool.cpp
+    threading/LatencyTimer.cpp
+    threading/SPSCQueue.cpp
 )
-
 target_include_directories(qtl_core PUBLIC ${CMAKE_SOURCE_DIR})
 target_link_libraries(qtl_core PUBLIC Threads::Threads)
